@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/tinet/netapp"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile.netapp"
+   checksum="0cc9bd96e828b9ead402912c2349c624"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="dbg_cons.c"
+   checksum="d524fcce78de517fe1a6a7a9c93cedf8"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="dbg_cons.cfg"
+   checksum="705088cb00a15480827564e9429f6901"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="dbg_cons.h"
+   checksum="09c5b3d019552d70e96a3d068197d495"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="dbg_cons_jp.c"
+   checksum="8809302d0b4155a5193d80af7d7797d7"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="discard.h"
+   checksum="d0ba4d725fb29c3cff75bad39373f3d4"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="echo.h"
+   checksum="e27983c8bdadd8ab4bc17c151867da2a"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="net_cons.c"
+   checksum="624e9663e5c01702f2c1ff1d82b8f331"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="net_cons.cfg"
+   checksum="7f3cb92e398106fa1864e7ecfa85f7db"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="net_cons.h"
+   checksum="eaad9c564af87210260d634034257507"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="netapp.h"
+   checksum="2393a9f15de780b8cf21763ded54a632"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="netapp_subr.c"
+   checksum="29bb551652b31de32e4d0e4c3c54afb2"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="netapp_subr.cfg"
+   checksum="5332a4edcf0f4deb19f28274319a6955"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="netapp_var.h"
+   checksum="01e303e6e03f8bc493a5eef82abd5912"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="ping.c"
+   checksum="65b43f83430d722fab625017317e9146"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="ping6.c"
+   checksum="f49ff054bab02b525f4d1a0db10d0e81"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_discard_cli.c"
+   checksum="30b2588c8a6c1b9a7a50387ffaf2359b"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_discard_cli.cfg"
+   checksum="89eeecf8c0f7ae5881cb8913c779a779"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_discard_srv.c"
+   checksum="6e3c31d10def254b4b3a1ea753d671e2"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_discard_srv.cfg"
+   checksum="7746707866790ce81171b5649457441c"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_echo_cli.c"
+   checksum="d112139eb863c7f7a68f40e7d7661980"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_echo_cli.cfg"
+   checksum="7ecc560572d7a3153fcb44b518d2f614"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_echo_srv1.c"
+   checksum="aa875a56b9f4a0c0dd832e2ae415f19d"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_echo_srv1.cfg"
+   checksum="ea6a831a5185c27cf4cd8447bd2696c1"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_echo_srv2.c"
+   checksum="b216eb3caa44f5e72cf9726a52d7c746"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tcp_echo_srv2.cfg"
+   checksum="07720a66740ed0b052d388bd0affb23f"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_dbg_cons.cfg"
+   checksum="ae49bd151d50dcc136bd745bff230fd9"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_net_cons.cfg"
+   checksum="2584ec17f88ec42b434e5ba179019864"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_tcp_discard_cli.cfg"
+   checksum="42e29132bf499039259fd02fec9256a0"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_tcp_discard_srv.cfg"
+   checksum="a932cef61aa6098e7db1818b81d55c11"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_tcp_echo_cli.cfg"
+   checksum="3720666cafbe24dd29f692344adeeac5"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_tcp_echo_srv.cfg"
+   checksum="fa0dfc5a23ffed4cd2beb5505cf135e6"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_udp_discard_cli.cfg"
+   checksum="b9700ffbf56aef8f06081b0049023b92"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_udp_echo_cli.cfg"
+   checksum="f99ff96d83c0813921492b1355083109"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_udp_echo_srv.cfg"
+   checksum="56ac0e5f10fa204dcc6cfa57d7e989fd"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_wwws.cfg"
+   checksum="5259498290ec58952b1ff5267590a275"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="udp_discard_cli.c"
+   checksum="b2bdb947b36fc60df9ce7da2661a575d"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="udp_discard_cli.cfg"
+   checksum="750f2fe9fab93fcb142244bd44e3a18a"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="udp_echo_cli.c"
+   checksum="223191865534dab8b41a09edf475ee28"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="udp_echo_cli.cfg"
+   checksum="8b7edca303d67f10f2441a6e9f0bf24e"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="udp_echo_srv.c"
+   checksum="9e2815ee5dc7c6d0480ecb3cd38887cb"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="udp_echo_srv.cfg"
+   checksum="0114e73b0ffa7ebe1591660e37963166"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="wwws.c"
+   checksum="a0c07c75e0f83e611c5ada923501316f"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="wwws.cfg"
+   checksum="c57a4ed0ab80f32faa5b110db78f4de7"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="wwws.h"
+   checksum="e4659228503dcbe11c93cea08f04e9a9"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="wwws_asp.cfg"
+   checksum="0dde4059c1dcd3cedb9b908e40123ef2"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="wwws_jsp.cfg"
+   checksum="93d7bd597d20bf28772bfe5cb6d1e752"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

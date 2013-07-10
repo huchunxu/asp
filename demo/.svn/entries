@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/demo"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_decoder.c"
+   checksum="154c5eb0041ba3872bc33270d9e81cde"
+   last-author="hcx"
+   text-time="2012-09-11T05:11:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_decoder.cfg"
+   checksum="b77ba1fadaab54fc7c035ac29ac9b2ac"
+   last-author="hcx"
+   text-time="2012-09-11T05:04:12.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:22.000000Z"/>
+<entry
+   name="demo_decoder.h"
+   checksum="25d17103687219c9f8e7710b9f6dd5b0"
+   last-author="hcx"
+   text-time="2012-09-11T05:10:01.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_help.c"
+   checksum="fc15fb4386d0d0ad9f3ddba70173a522"
+   last-author="hcx"
+   text-time="2012-09-11T05:03:21.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_help.cfg"
+   checksum="631063f51b189aafca6d4c398e6938f6"
+   last-author="hcx"
+   text-time="2012-09-11T05:04:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:25.000000Z"/>
+<entry
+   name="demo_help.h"
+   checksum="c514dab7e1462b1af46463081b765beb"
+   last-author="hcx"
+   text-time="2012-09-11T05:10:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_light.c"
+   checksum="6a81a48bb0b28920e499b3400d472cc3"
+   last-author="hcx"
+   text-time="2012-09-11T03:57:10.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_light.cfg"
+   checksum="04938f1fb4dbc0fa8eca7a7b2cf70934"
+   last-author="hcx"
+   text-time="2012-09-06T03:21:46.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:34.000000Z"/>
+<entry
+   name="demo_light.h"
+   checksum="ca7ed47537b7369fafdbe7bfab62a291"
+   last-author="hcx"
+   text-time="2012-09-06T07:18:27.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_motor.c"
+   checksum="2ced676a20bc3693360642f3a3e39ef4"
+   last-author="hcx"
+   text-time="2012-09-11T05:09:22.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_motor.cfg"
+   checksum="e4d1bdbd32a526f4abf9c3c29fcf8ea8"
+   last-author="hcx"
+   text-time="2012-09-11T05:04:47.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:56.000000Z"/>
+<entry
+   name="demo_motor.h"
+   checksum="b58b3c52d2dc5b5cc6f25d867f04930c"
+   last-author="hcx"
+   text-time="2012-09-11T05:10:26.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_speaker.c"
+   checksum="320fa83894b9eb5303da0497c8f9e3c2"
+   last-author="hcx"
+   text-time="2012-09-11T04:08:29.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_speaker.cfg"
+   checksum="e8680b57cd2a0514e3a57c42bf40e4d4"
+   last-author="hcx"
+   text-time="2012-09-11T03:59:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:17.000000Z"/>
+<entry
+   name="demo_speaker.h"
+   checksum="df31efd783e89f41116ad29bf43966a0"
+   last-author="hcx"
+   text-time="2012-09-11T04:05:18.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_switch.c"
+   checksum="a932075d049b8a9f4116fa47a70f60ee"
+   last-author="hcx"
+   text-time="2012-09-11T04:05:01.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="demo_switch.cfg"
+   checksum="8c15cc36378487461397b83128fa49cf"
+   last-author="hcx"
+   text-time="2012-09-11T04:00:07.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:47.000000Z"/>
+<entry
+   name="demo_switch.h"
+   checksum="cc41c1b0c4851b2b87c3f155645d3845"
+   last-author="hcx"
+   text-time="2012-09-11T04:04:54.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="ntshell"
+   kind="dir"/>
+<entry
+   name="task_ntshell.c"
+   checksum="bf2defbdd07756b4e006e75087d2390b"
+   last-author="hcx"
+   text-time="2012-09-11T03:01:53.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="task_ntshell.cfg"
+   checksum="759d7110aef8500c94becf0b8ef36282"
+   last-author="hcx"
+   text-time="2012-09-11T05:05:24.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:49.000000Z"/>
+<entry
+   name="task_ntshell.h"
+   checksum="6092da40462b1035517bd8c4b97e02c6"
+   last-author="hcx"
+   text-time="2012-09-11T02:23:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/include"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="histogram.h"
+   checksum="baa76b8d57942afd2cd1121850200ec2"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:30.000000Z"/>
+<entry
+   name="itron.h"
+   checksum="b3e9cba186329e74e2401db9f63483cd"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:33.000000Z"/>
+<entry
+   name="kernel.h"
+   checksum="0febb0dd0b15a62a09637aa66b3e7943"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:26.000000Z"/>
+<entry
+   name="log_output.h"
+   checksum="2b5b61a0fc03fd0adfbf13eb96eff309"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:45.000000Z"/>
+<entry
+   name="queue.h"
+   checksum="ac51459dd4b133de44372de9a4380d20"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:52.000000Z"/>
+<entry
+   name="sil.h"
+   checksum="d48831f7edb32d52663c754f693e0779"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:31.000000Z"/>
+<entry
+   name="t_stddef.h"
+   checksum="4f80872e1e901aeaca73d5e286338d93"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:02.000000Z"/>
+<entry
+   name="t_stdlib.h"
+   checksum="03b9b6985b28830e9bcb08565c9c10d9"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:51.000000Z"/>
+<entry
+   name="t_syslog.h"
+   checksum="9a204511d88fc526e91ba47e1349d22d"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:12.000000Z"/>
+<entry
+   name="test_lib.h"
+   checksum="1b2afd160e7cc63a86dfe4aea299d03a"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:00.000000Z"/>
+</wc-entries>

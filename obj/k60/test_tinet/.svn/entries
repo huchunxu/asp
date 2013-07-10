@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/obj/k60/test_tinet"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile"
+   checksum="f8384f7fd5cae24bcdae2e6901ddda1e"
+   last-author="hcx"
+   text-time="2012-10-18T08:30:04.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:22.000000Z"/>
+<entry
+   name="route_cfg.c"
+   checksum="6aa8a463d47de8ba28d8a8f48e2fee70"
+   last-author="hcx"
+   text-time="2012-10-18T15:48:08.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="test_tinet.c"
+   checksum="fa18da91648a977261c6027c924ccf77"
+   last-author="hcx"
+   text-time="2012-10-14T09:41:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:47.000000Z"/>
+<entry
+   name="test_tinet.cfg"
+   checksum="69a58999b798b7ab168cbc69a553eb81"
+   last-author="hcx"
+   text-time="2012-10-16T10:49:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:26.000000Z"/>
+<entry
+   name="test_tinet.h"
+   checksum="6a48772e6b699849bbcf68cb12fd1f46"
+   last-author="hcx"
+   text-time="2012-08-29T02:46:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:19.000000Z"/>
+<entry
+   name="tinet_app_config.h"
+   checksum="be9c490e1a51a6fbcb8fde4dc312e7c7"
+   last-author="hcx"
+   text-time="2012-10-16T11:03:33.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_test_tinet.cfg"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="hcx"
+   text-time="2012-10-16T11:01:49.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:53.000000Z"/>
+</wc-entries>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/lwip/src/core/snmp"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="asn1_dec.c"
+   checksum="2117e6d5e1a8cae5e09e255f17bee7fa"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="asn1_enc.c"
+   checksum="1afdf13c2bbed91d6f060c0779139287"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="mib2.c"
+   checksum="a37ba221b1631ec28ce4a6216b7d29bc"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="mib_structs.c"
+   checksum="de591ce65aa86efc88e28cbfe11011dd"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="msg_in.c"
+   checksum="0e32481e6d6c5d316f1b1335aabb1ede"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="msg_out.c"
+   checksum="36b031a2c275b74b0a72c3a6a357a3d5"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

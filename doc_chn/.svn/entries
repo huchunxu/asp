@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/doc_chn"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="asp_spec_cn.txt"
+   checksum="f9fbf3e3ae880240919ffe756b9e5f55"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:34.000000Z"/>
+<entry
+   name="configurator_cn.txt"
+   checksum="289a3ddc842ece5f8bfb2edde25bacae"
+   last-author="hcx"
+   text-time="2012-04-13T14:13:08.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:12.000000Z"/>
+<entry
+   name="design_cn.txt"
+   checksum="1a21dd97e0e1162c64bf2a5fb8c86a16"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:36.000000Z"/>
+<entry
+   name="extension_cn.txt"
+   checksum="2158feae0d9d28f65a06a34bd39be9fe"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:08.000000Z"/>
+<entry
+   name="porting_cn.txt"
+   checksum="0358734cb3128d4cf90c396d110c9ae6"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:14.000000Z"/>
+<entry
+   name="user_cn .txt"
+   checksum="ab0997890be5517f6284d39c0377db2c"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:02.000000Z"/>
+<entry
+   name="version_cn.txt"
+   checksum="45943f994345aa863fc683df410a14f7"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:05.000000Z"/>
+</wc-entries>

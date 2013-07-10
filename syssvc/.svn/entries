@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/syssvc"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="banner.c"
+   checksum="6f6ea999c51d17a675c890d78b875d62"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:35.000000Z"/>
+<entry
+   name="banner.cfg"
+   checksum="a660579be19a68ca24ae9c943c83cf31"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:07.000000Z"/>
+<entry
+   name="banner.h"
+   checksum="590a406aee436632d940f3f8172e82b4"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:32.000000Z"/>
+<entry
+   name="logtask.c"
+   checksum="06b5340ad5e73c10288f6ee9e4109281"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:55.000000Z"/>
+<entry
+   name="logtask.cfg"
+   checksum="ed083f079d865209f1a55bed2b0d9644"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:14.000000Z"/>
+<entry
+   name="logtask.h"
+   checksum="5574dc46fd1f8680ed5e84a2f2dcecb7"
+   last-author="hcx"
+   text-time="2012-09-13T07:36:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:51.000000Z"/>
+<entry
+   name="serial.c"
+   checksum="1a0fd8fc70e8a2ff07b24cc6cc6c07a5"
+   last-author="hcx"
+   text-time="2012-09-01T08:03:34.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="serial.cfg"
+   checksum="295783c0a64d90a0d951d4c6ffa753ce"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="serial.h"
+   checksum="348b1416b1db1262d1bfbf1fdc581293"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="syslog.c"
+   checksum="1ec9097ad3b214495a3de2147517a4af"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:27.000000Z"/>
+<entry
+   name="syslog.cfg"
+   checksum="1cbb4c1d09e09fb87589b580ff77c499"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:25.000000Z"/>
+<entry
+   name="syslog.h"
+   checksum="2b1a1308b2b0768f04bc1b753405cd19"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:48.000000Z"/>
+<entry
+   name="vasyslog.c"
+   checksum="3f6911e49539f9ae5fc38a36cbc6abd8"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:42.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:31.000000Z"/>
+</wc-entries>

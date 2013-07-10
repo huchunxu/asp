@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/peripheral/laser_car"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="FarSignalProcess.c"
+   checksum="98a456615b4e41f5e83b6b95aaced0c7"
+   last-author="hcx"
+   text-time="2012-09-09T05:43:26.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="FarSignalProcess.h"
+   checksum="4c24a01eaf25cf168cf8002e884170a6"
+   last-author="hcx"
+   text-time="2012-09-09T05:37:17.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Follow.c"
+   checksum="092887cc5fbeb5d19dd02fa0e196119f"
+   last-author="hcx"
+   text-time="2012-09-09T05:51:19.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Follow.h"
+   checksum="52428e7d45fa001f71d785c56abd39c7"
+   last-author="hcx"
+   text-time="2012-09-09T05:50:24.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="GetFarSignalValue.c"
+   checksum="f3454d2e1ba39d27338253eb1b6de6dc"
+   last-author="hcx"
+   text-time="2012-09-08T08:46:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="GetFarSignalValue.cfg"
+   checksum="1e8af9f3fd4fe1630de6aa42f7155f44"
+   last-author="hcx"
+   text-time="2012-09-08T08:45:56.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="GetFarSignalValue.h"
+   checksum="4766c97bbaca1beae59397f5af77a871"
+   last-author="hcx"
+   text-time="2012-09-08T08:46:17.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="GetNearSignalValue.c"
+   checksum="21542cbba86219bf5114fbb600588975"
+   last-author="hcx"
+   text-time="2012-05-26T08:42:08.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="GetNearSignalValue.h"
+   checksum="f639f896e76e76f24e0af4e5ce283086"
+   last-author="hcx"
+   text-time="2012-09-08T08:18:12.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="GetSignalValues.c"
+   checksum="979bc708a86d464c1cf4e4f52b09d44a"
+   last-author="hcx"
+   text-time="2012-09-08T08:21:22.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile.lasercar"
+   checksum="3512fabbe1a94e60041b76ab4c5d6bb2"
+   last-author="hcx"
+   text-time="2012-09-22T03:14:27.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="getLaserInfo.h"
+   checksum="5f8b6776b152c609166c0a1a054df832"
+   last-author="hcx"
+   text-time="2012-09-08T08:21:49.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="laser.c"
+   checksum="0f43c19ea4e2b05ecc5f845d629072d6"
+   last-author="hcx"
+   text-time="2012-09-08T08:25:18.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="laser.h"
+   checksum="ffcce95b44b57fde4a41ded9e25a1b65"
+   last-author="hcx"
+   text-time="2012-09-08T08:12:57.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="steer_control.c"
+   checksum="ea4e6dbed28ce22e89761837c30a4285"
+   last-author="hcx"
+   text-time="2012-09-09T07:02:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="steer_control.h"
+   checksum="7dbf8b7280197e2d078dd0c18739a12d"
+   last-author="hcx"
+   text-time="2012-09-09T05:52:21.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

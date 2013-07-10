@@ -1,0 +1,27 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.eleccar
+#
+#		Description:
+#
+#       Version:  0.1
+#       Created:  2012-09-09 16:38:35
+#		Author:  Hu Chunxu , hcx196@gmail.com
+#		Company:  HUST-Renesas Lab
+#		Revision:  
+# =====================================================================================
+#		@0.1   Hu Chunxu 2012-09-09	create orignal file
+# =====================================================================================
+
+ELECCAR_ROOT = $(SRCDIR)/peripheral/electromagnetic_car
+
+ELECCAR_DIR = $(ELECCAR_ROOT)
+
+ELECCAR_COBJS := $(ELECCAR_COBJS) 
+
+SYSSVC_DIR := $(SYSSVC_DIR) $(ELECCAR_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(ELECCAR_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(ELECCAR_CFLAGS)
+
+INCLUDES := $(INCLUDES)	-I$(ELECCAR_ROOT)

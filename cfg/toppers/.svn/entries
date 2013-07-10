@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/cfg/toppers"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile"
+   checksum="b59cb810ccd4a2d4302f0983dc45b7c5"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:48.000000Z"/>
+<entry
+   name="builtin_function.cpp"
+   checksum="c3709dc57009336955d9d00404559455"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:39.000000Z"/>
+<entry
+   name="c_chlit_parser.cpp"
+   checksum="2c38b0376be86f54227c9404b125487a"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:06.000000Z"/>
+<entry
+   name="c_expr.hpp"
+   checksum="3fc14d7ecec54680ea0a06a552405ac7"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:01.000000Z"/>
+<entry
+   name="c_ident_parser.cpp"
+   checksum="86a7c4e033fc1b1e78a3f643d8f11d4a"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:13.000000Z"/>
+<entry
+   name="c_int_parser.cpp"
+   checksum="e9a0b3c09157c1dd0a5ed0d74d88a50b"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:02.000000Z"/>
+<entry
+   name="c_keywords.cpp"
+   checksum="8bd1a99b5ffc4bb73b01bc3d2c480e01"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:25.000000Z"/>
+<entry
+   name="c_parser.hpp"
+   checksum="2c56ba0d31afd0845ec2e9bdbeab38f3"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:43.000000Z"/>
+<entry
+   name="c_plus_plus_keywords.cpp"
+   checksum="6a5987ca5c8eb98791201035720fc341"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:10.000000Z"/>
+<entry
+   name="c_pp_line.hpp"
+   checksum="6d21247702b7753f34449f8ec81c9fbf"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:54.000000Z"/>
+<entry
+   name="c_strlit_parser.cpp"
+   checksum="4d80cb719326648c5dc1fe9a9fb40ab9"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:17.000000Z"/>
+<entry
+   name="codeset.hpp"
+   checksum="e8560374291b3ec1ee4690aa8c35938e"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:10.000000Z"/>
+<entry
+   name="config.hpp"
+   checksum="a6e5d58a6dae84a4c85c9d7ca617ffc5"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:11.000000Z"/>
+<entry
+   name="cpp.cpp"
+   checksum="f567c129d326c21160774bb5bda823cb"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:53.000000Z"/>
+<entry
+   name="cpp.hpp"
+   checksum="ba883ab38f051bc0458b95aa9c5c67fb"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:51.000000Z"/>
+<entry
+   name="csv.hpp"
+   checksum="fc319fefd93967ea9a3e1df8ad236d4c"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:36.000000Z"/>
+<entry
+   name="debug.hpp"
+   checksum="05d3beac29c02e06a20c3040d6becb3f"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:42.000000Z"/>
+<entry
+   name="diagnostics.cpp"
+   checksum="a442be5b0fb12da216424583f9c76c37"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:48.000000Z"/>
+<entry
+   name="diagnostics.hpp"
+   checksum="819faf52f414f2e387479ecc65bda848"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:14.000000Z"/>
+<entry
+   name="gettext.cpp"
+   checksum="e55f16693ce32d12453e57a37380d5c4"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:56.000000Z"/>
+<entry
+   name="gettext.hpp"
+   checksum="5e05990433e95745c8e18f0bf2dc32d3"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:47.000000Z"/>
+<entry
+   name="global.cpp"
+   checksum="d243ebd3079849ded7736e3e4ecfee89"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:59.000000Z"/>
+<entry
+   name="global.hpp"
+   checksum="8d19ad13e0928fb907a660732e638ddb"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:59.000000Z"/>
+<entry
+   name="io.cpp"
+   checksum="549c6bc32fedaf5416c7b7511e06c408"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:11.000000Z"/>
+<entry
+   name="io.hpp"
+   checksum="f4e2cc60c23247f965773c653a768340"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:38.000000Z"/>
+<entry
+   name="itronx"
+   kind="dir"/>
+<entry
+   name="macro_processor.cpp"
+   checksum="6d15ebeccecca5c5c92466336cc22718"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:51.000000Z"/>
+<entry
+   name="macro_processor.hpp"
+   checksum="f7ca5c7c3c483562deeadd5f928f7edf"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:23.000000Z"/>
+<entry
+   name="mbchar_parser.cpp"
+   checksum="295c6f5dcc8a5e1c2b37ff8d85ea6aed"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:18.000000Z"/>
+<entry
+   name="misc.hpp"
+   checksum="a4161e0173d1d9656de5905f7074f408"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:17.000000Z"/>
+<entry
+   name="nm_symbol.cpp"
+   checksum="d58e6043e7e8eddcffcd1ec12e04e6cc"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:56.000000Z"/>
+<entry
+   name="nm_symbol.hpp"
+   checksum="065ee3fad92b02f66b10a19d5a362b00"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:16.000000Z"/>
+<entry
+   name="output_file.cpp"
+   checksum="ace6f93ee9d3f1b2766dd84415fffa0f"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:17.000000Z"/>
+<entry
+   name="output_file.hpp"
+   checksum="613a7c32a36e9e506ef1abaa804c3ee0"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:32.000000Z"/>
+<entry
+   name="s_record.cpp"
+   checksum="dd9b5209f09f6f7e74163ff88a56c598"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:12.000000Z"/>
+<entry
+   name="s_record.hpp"
+   checksum="9c97ed6dcb6e4411545df22220b7cacd"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:28.000000Z"/>
+<entry
+   name="text.hpp"
+   checksum="fe2ac3136b9e9a212a4c41f758867c97"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:14.000000Z"/>
+<entry
+   name="text_line.hpp"
+   checksum="b8e09b4da6ae58482494bcb19f81ece3"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:10.000000Z"/>
+<entry
+   name="toppers.vcproj"
+   checksum="1c367f0dba7dcf7e1cf5c579a6b723a5"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:34.000000Z"/>
+<entry
+   name="ucn_parser.cpp"
+   checksum="190d7bdf0228079025b768cd4b3e7988"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:10.000000Z"/>
+<entry
+   name="workaround.hpp"
+   checksum="c005af77ee8344926189b857a5921e28"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:30.000000Z"/>
+</wc-entries>

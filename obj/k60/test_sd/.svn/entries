@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/obj/k60/test_sd"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile"
+   checksum="a0f10c2694123e9dcbf1423e02c198e7"
+   last-author="hcx"
+   text-time="2012-11-07T08:38:23.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:09.000000Z"/>
+<entry
+   name="asp"
+   checksum="a6c56b594c4abe9cb029f97b3bf928bb"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:35.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:15.000000Z"/>
+<entry
+   name="asp.map"
+   checksum="6b363c60595755e86187d12b26051c1b"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:35.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="asp.srec"
+   checksum="7e31b4874cd7e9a24dbfdc82fdec3822"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:35.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:51.000000Z"/>
+<entry
+   name="asp.syms"
+   checksum="baa299d71d1e1980e21cae81f54a54bd"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:35.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="cfg1_out"
+   checksum="aeb03e1775125fb15ab6fa06a1cddf7e"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:42.000000Z"/>
+<entry
+   name="cfg1_out.c"
+   checksum="94d5b76d8a3ef8f4b64e7b19bf65bc7d"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="cfg1_out.srec"
+   checksum="9a3c0a6e048a6843ccb48f98cfa0949b"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:33.000000Z"/>
+<entry
+   name="cfg1_out.syms"
+   checksum="4fe93ff3ac1d85cfc50d1b5d86aa35e7"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="kernel_cfg.c"
+   checksum="20a65b028f7f66b2ad3450e58305f15f"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="kernel_cfg.h"
+   checksum="7009c37da7d8279a2ac786a8bd0cf6ae"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="kernel_cfg.timestamp"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="libkernel.a"
+   checksum="e31f8365a1abf048048206833f5f41fa"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:34.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:18.000000Z"/>
+<entry
+   name="makeoffset.s"
+   checksum="b8f556c2b3e58362b3e644aa708f2f4f"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:32.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="offset.h"
+   checksum="4acd866e36219628f25c9f16af0d7ff6"
+   last-author="hcx"
+   text-time="2012-11-07T08:53:32.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="test_sd.c"
+   checksum="abf4bdcef59d7b8a6be4a4d68f3e20bb"
+   last-author="hcx"
+   text-time="2012-11-07T08:48:55.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:52.000000Z"/>
+<entry
+   name="test_sd.cfg"
+   checksum="401e7474a5fa7608491f9b95ac789b67"
+   last-author="hcx"
+   text-time="2012-11-06T11:27:11.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:17.000000Z"/>
+<entry
+   name="test_sd.h"
+   checksum="6a48772e6b699849bbcf68cb12fd1f46"
+   last-author="hcx"
+   text-time="2012-08-29T02:46:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:02.000000Z"/>
+</wc-entries>

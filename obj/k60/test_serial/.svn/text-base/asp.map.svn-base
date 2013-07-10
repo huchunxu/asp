@@ -1,0 +1,915 @@
+Archive member included because of file (symbol)
+
+libkernel.a(prc_support.o)    kernel_cfg.o (_kernel_exc_entry)
+libkernel.a(target_config.o)  syslog.o (target_fput_log)
+libkernel.a(target_interrupt.o)
+                              target_serial.o (exc_enable)
+libkernel.a(prc_config.o)     libkernel.a(prc_support.o) (_kernel_lock_flag)
+libkernel.a(startup.o)        start.o (sta_ker)
+libkernel.a(task.o)           libkernel.a(prc_support.o) (_kernel_p_runtsk)
+libkernel.a(time_event.o)     syslog.o (_kernel_current_time)
+libkernel.a(task_manage.o)    libkernel.a(prc_support.o) (ext_tsk)
+libkernel.a(task_sync.o)      test_serial.o (slp_tsk)
+libkernel.a(semaphore.o)      kernel_cfg.o (_kernel_initialize_semaphore)
+libkernel.a(sys_manage.o)     serial.o (loc_cpu)
+libkernel.a(interrupt.o)      kernel_cfg.o (_kernel_initialize_interrupt)
+libkernel.a(exception.o)      kernel_cfg.o (_kernel_initialize_exception)
+libkernel.a(wait.o)           libkernel.a(task_sync.o) (_kernel_make_wait_tmout)
+
+Allocating common symbols
+Common symbol       size              file
+
+_kernel_cyccb_table
+                    0x0               kernel_cfg.o
+_kernel_p_schedtsk  0x4               libkernel.a(task.o)
+_kernel_pdqinib_table
+                    0x0               kernel_cfg.o
+_kernel_pdqcb_table
+                    0x0               kernel_cfg.o
+_kernel_dtqinib_table
+                    0x0               kernel_cfg.o
+_kernel_min_time    0x4               libkernel.a(time_event.o)
+_kernel_dtqcb_table
+                    0x0               kernel_cfg.o
+_kernel_reqflg      0x4               libkernel.a(task.o)
+_kernel_ready_queue
+                    0x80              libkernel.a(task.o)
+_kernel_semcb_table
+                    0x20              kernel_cfg.o
+_kernel_mbxinib_table
+                    0x0               kernel_cfg.o
+_kernel_alminib_table
+                    0x0               kernel_cfg.o
+_kernel_flginib_table
+                    0x0               kernel_cfg.o
+_kernel_tmevt_heap  0x18              kernel_cfg.o
+_kernel_dspflg      0x4               libkernel.a(task.o)
+_kernel_ready_primap
+                    0x2               libkernel.a(task.o)
+_kernel_almcb_table
+                    0x0               kernel_cfg.o
+_kernel_disdsp      0x4               libkernel.a(task.o)
+_kernel_current_time
+                    0x4               libkernel.a(time_event.o)
+_kernel_cycinib_table
+                    0x0               kernel_cfg.o
+_kernel_p_runtsk    0x4               libkernel.a(task.o)
+_kernel_excinib_table
+                    0x0               kernel_cfg.o
+_kernel_mpfcb_table
+                    0x0               kernel_cfg.o
+_kernel_tcb_table   0x60              kernel_cfg.o
+_kernel_ipmflg      0x4               libkernel.a(task.o)
+_kernel_saved_iipm  0x4               libkernel.a(prc_config.o)
+_kernel_next_time   0x4               libkernel.a(time_event.o)
+_kernel_mpfinib_table
+                    0x0               kernel_cfg.o
+_kernel_lock_flag   0x4               libkernel.a(prc_config.o)
+siopcb_table        0x28              target_serial.o
+_kernel_flgcb_table
+                    0x0               kernel_cfg.o
+_kernel_mbxcb_table
+                    0x0               kernel_cfg.o
+_kernel_last_index  0x4               libkernel.a(time_event.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x00000000         0x00080000         xr
+RAM              0x1fff0000         0x00020000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD start.o
+LOAD test_serial.o
+LOAD target_serial.o
+LOAD banner.o
+LOAD syslog.o
+LOAD serial.o
+LOAD logtask.o
+LOAD log_output.o
+LOAD vasyslog.o
+LOAD t_perror.o
+LOAD strerror.o
+LOAD kernel_cfg.o
+LOAD libkernel.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a
+START GROUP
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libm.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3unhosted.a
+END GROUP
+                0x00000000                PROVIDE (hardware_init_hook, 0x0)
+                0x00000000                PROVIDE (software_init_hook, 0x0)
+                0x00000000                PROVIDE (software_term_hook, 0x0)
+                0x1fff8c90                PROVIDE (__cs3_heap_start, _end)
+
+.text           0x1fff0000     0x6b08
+                0x1fff0000                __text = .
+ *(.vector)
+ .vector        0x1fff0000      0x400 kernel_cfg.o
+                0x1fff0000                _kernel_vector_table
+ *(.text*)
+ .text          0x1fff0400       0x78 start.o
+                0x1fff0400                _start
+ .text          0x1fff0478       0xe8 test_serial.o
+                0x1fff0478                task1
+                0x1fff054c                task2
+ .text          0x1fff0560      0x5f0 target_serial.o
+                0x1fff0620                target_usart_init
+                0x1fff0848                target_usart_term
+                0x1fff089c                sio_initialize
+                0x1fff08ec                sio_opn_por
+                0x1fff0978                sio_cls_por
+                0x1fff09c0                sio_isr
+                0x1fff09f4                sio_snd_chr
+                0x1fff0a2c                sio_rcv_chr
+                0x1fff0a58                sio_ena_cbr
+                0x1fff0a80                sio_dis_cbr
+                0x1fff0aa8                sio_pol_snd_chr
+ .text          0x1fff0b50       0x6c banner.o
+                0x1fff0b88                print_banner
+ .text          0x1fff0bbc      0x2b8 syslog.o
+                0x1fff0c04                syslog_initialize
+                0x1fff0c60                syslog_wri_log
+                0x1fff0d54                syslog_rea_log
+                0x1fff0de8                syslog_msk_log
+                0x1fff0e1c                syslog_ref_log
+ .text          0x1fff0e74      0xbd0 serial.o
+                0x1fff0ecc                serial_initialize
+                0x1fff0f28                serial_opn_por
+                0x1fff1064                serial_cls_por
+                0x1fff12c4                serial_wri_dat
+                0x1fff14a0                serial_rea_dat
+                0x1fff1624                serial_ctl_por
+                0x1fff16a0                serial_ref_por
+                0x1fff1724                sio_irdy_snd
+                0x1fff17f0                sio_irdy_rcv
+                0x1fff19a8                serial_get_chr
+ .text          0x1fff1a44      0x250 logtask.o
+                0x1fff1aa0                logtask_flush
+                0x1fff1b4c                logtask_main
+                0x1fff1bf8                logtask_terminate
+ .text          0x1fff1c94      0x3e8 log_output.o
+                0x1fff1d78                syslog_printf
+                0x1fff1ffc                syslog_print
+                0x1fff204c                syslog_lostmsg
+ .text          0x1fff207c      0x1fc vasyslog.o
+                0x1fff207c                syslog
+ .text          0x1fff2278       0x84 t_perror.o
+                0x1fff22b8                t_perror
+ .text          0x1fff22fc      0x1d8 strerror.o
+                0x1fff22fc                itron_strerror
+ .text          0x1fff24d4       0x98 kernel_cfg.o
+                0x1fff24fc                _kernel_inthdr_69
+                0x1fff251c                _kernel_initialize_object
+                0x1fff2534                _kernel_call_inirtn
+                0x1fff255c                _kernel_call_terrtn
+ .text          0x1fff256c      0x280 libkernel.a(prc_support.o)
+                0x1fff256c                dispatch
+                0x1fff2598                _kernel_exc_entry
+                0x1fff2624                _kernel_int_entry
+                0x1fff26e2                _kernel_svc_handler
+                0x1fff2700                start_dispatch
+                0x1fff271c                exit_and_dispatch
+                0x1fff2774                call_exit_kernel
+                0x1fff2784                _kernel_start_r
+                0x1fff279c                sil_dly_nse
+ .text          0x1fff27ec      0x38c libkernel.a(target_config.o)
+                0x1fff27ec                target_initialize
+                0x1fff282c                target_exit
+                0x1fff2838                target_fput_log
+                0x1fff2868                hardware_init_hook
+ .text          0x1fff2b78      0x218 libkernel.a(target_interrupt.o)
+                0x1fff2b78                exc_enable
+                0x1fff2ca0                exc_disable
+ .text          0x1fff2d90      0x504 libkernel.a(prc_config.o)
+                0x1fff2f4c                set_exc_int_priority
+                0x1fff2ffc                enable_exc
+                0x1fff306c                disable_exc
+                0x1fff30dc                _kernel_prc_initialize
+                0x1fff3120                _kernel_prc_terminate
+                0x1fff312c                _kernel_x_config_int
+                0x1fff31c4                _kernel_default_exc_handler
+                0x1fff322c                _kernel_default_int_handler
+ .text          0x1fff3294       0x78 libkernel.a(startup.o)
+                0x1fff32c0                sta_ker
+                0x1fff32e4                ext_ker
+                0x1fff3300                _kernel_exit_kernel
+ .text          0x1fff330c      0x8e8 libkernel.a(task.o)
+                0x1fff35f0                _kernel_initialize_task
+                0x1fff3820                _kernel_search_schedtsk
+                0x1fff3844                _kernel_make_runnable
+                0x1fff38a8                _kernel_make_non_runnable
+                0x1fff393c                _kernel_make_dormant
+                0x1fff3980                _kernel_make_active
+                0x1fff39c0                _kernel_change_priority
+                0x1fff3aac                _kernel_rotate_ready_queue
+                0x1fff3b1c                _kernel_call_texrtn
+ .text          0x1fff3bf4      0x5c4 libkernel.a(time_event.o)
+                0x1fff3d14                _kernel_initialize_tmevt
+                0x1fff3d54                _kernel_tmevt_up
+                0x1fff3de4                _kernel_tmevt_down
+                0x1fff3eb4                _kernel_tmevtb_insert
+                0x1fff3f10                _kernel_tmevtb_delete
+                0x1fff408c                _kernel_tmevt_lefttim
+                0x1fff40e0                _kernel_signal_time
+ .text          0x1fff41b8      0x764 libkernel.a(task_manage.o)
+                0x1fff4388                act_tsk
+                0x1fff4450                iact_tsk
+                0x1fff4508                can_act
+                0x1fff45a8                ext_tsk
+                0x1fff4658                ter_tsk
+                0x1fff474c                chg_pri
+                0x1fff4828                get_pri
+                0x1fff48cc                get_inf
+ .text          0x1fff491c      0x8c8 libkernel.a(task_sync.o)
+                0x1fff4acc                slp_tsk
+                0x1fff4b50                tslp_tsk
+                0x1fff4c00                wup_tsk
+                0x1fff4cdc                iwup_tsk
+                0x1fff4da8                can_wup
+                0x1fff4e58                rel_wai
+                0x1fff4eec                irel_wai
+                0x1fff4f88                sus_tsk
+                0x1fff508c                rsm_tsk
+                0x1fff514c                dly_tsk
+ .text          0x1fff51e4      0x760 libkernel.a(semaphore.o)
+                0x1fff540c                _kernel_initialize_semaphore
+                0x1fff5478                sig_sem
+                0x1fff553c                isig_sem
+                0x1fff5608                wai_sem
+                0x1fff56c0                pol_sem
+                0x1fff574c                twai_sem
+                0x1fff582c                ini_sem
+                0x1fff58bc                ref_sem
+ .text          0x1fff5944      0x51c libkernel.a(sys_manage.o)
+                0x1fff5a28                rot_rdq
+                0x1fff5aac                irot_rdq
+                0x1fff5b1c                get_tid
+                0x1fff5b78                iget_tid
+                0x1fff5be4                loc_cpu
+                0x1fff5c1c                iloc_cpu
+                0x1fff5c54                unl_cpu
+                0x1fff5c8c                iunl_cpu
+                0x1fff5cc4                dis_dsp
+                0x1fff5d18                ena_dsp
+                0x1fff5d90                sns_ctx
+                0x1fff5db4                sns_loc
+                0x1fff5dd8                sns_dsp
+                0x1fff5df8                sns_dpn
+                0x1fff5e38                sns_ker
+ .text          0x1fff5e60      0x588 libkernel.a(interrupt.o)
+                0x1fff6164                _kernel_initialize_interrupt
+                0x1fff61f4                dis_int
+                0x1fff6264                ena_int
+                0x1fff62d4                chg_ipm
+                0x1fff63a0                get_ipm
+ .text          0x1fff63e8      0x15c libkernel.a(exception.o)
+                0x1fff6480                _kernel_initialize_exception
+                0x1fff64cc                xsns_dpn
+                0x1fff6504                xsns_xpn
+ .text          0x1fff6544      0x5c4 libkernel.a(wait.o)
+                0x1fff68c0                _kernel_make_wait_tmout
+                0x1fff6940                _kernel_wait_complete
+                0x1fff696c                _kernel_wait_tmout
+                0x1fff69ac                _kernel_wait_tmout_ok
+                0x1fff69e8                _kernel_wait_release
+                0x1fff6a5c                _kernel_wobj_make_wait
+                0x1fff6a84                _kernel_wobj_make_wait_tmout
+                0x1fff6ab4                _kernel_init_wait_queue
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+                0x1fff6b08                _etext = .
+                0x1fff6b08                PROVIDE (etext, .)
+
+.vfp11_veneer   0x1fff6b08        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x1fff6b08        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.rodata         0x1fff6b08      0xba4
+ *(.rodata*)
+ .rodata        0x1fff6b08       0x10 test_serial.o
+ .rodata        0x1fff6b18       0x10 target_serial.o
+                0x1fff6b18                siopinib_table
+ .rodata        0x1fff6b28      0x164 banner.o
+ .rodata        0x1fff6c8c       0x18 serial.o
+ .rodata        0x1fff6ca4       0x48 logtask.o
+ .rodata        0x1fff6cec       0x6c log_output.o
+ .rodata        0x1fff6d58       0x30 t_perror.o
+ .rodata        0x1fff6d88       0xc8 strerror.o
+ .rodata        0x1fff6e50      0x518 kernel_cfg.o
+                0x1fff6e50                _kernel_tmax_tskid
+                0x1fff6e54                _kernel_tinib_table
+                0x1fff6eb4                _kernel_torder_table
+                0x1fff6ec0                _kernel_tmax_semid
+                0x1fff6ec4                _kernel_seminib_table
+                0x1fff6edc                _kernel_tmax_flgid
+                0x1fff6ee0                _kernel_tmax_dtqid
+                0x1fff6ee4                _kernel_tmax_pdqid
+                0x1fff6ee8                _kernel_tmax_mbxid
+                0x1fff6eec                _kernel_tmax_mpfid
+                0x1fff6ef0                _kernel_tmax_cycid
+                0x1fff6ef4                _kernel_tmax_almid
+                0x1fff6ef8                _kernel_tnum_inhno
+                0x1fff6efc                _kernel_inhinib_table
+                0x1fff6f08                _kernel_tnum_intno
+                0x1fff6f0c                _kernel_intinib_table
+                0x1fff6f18                _kernel_tnum_excno
+                0x1fff6f1c                _kernel_istksz
+                0x1fff6f20                _kernel_istk
+                0x1fff6f24                _kernel_istkpt
+                0x1fff6f28                _kernel_exc_tbl
+                0x1fff7328                _kernel_bitpat_cfgint
+ .rodata        0x1fff7368      0x108 libkernel.a(prc_config.o)
+ .rodata        0x1fff7470       0x8c libkernel.a(task.o)
+ .rodata        0x1fff74fc       0x40 libkernel.a(time_event.o)
+ .rodata        0x1fff753c       0x34 libkernel.a(task_sync.o)
+ .rodata        0x1fff7570       0x54 libkernel.a(semaphore.o)
+ .rodata        0x1fff75c4       0xe8 libkernel.a(wait.o)
+
+.flash_protect  0x1fff76ac       0x10
+ .flash_protect
+                0x1fff76ac       0x10 start.o
+                0x1fff76ac                init_vector
+                0x1fff76bc                . = ALIGN (0x4)
+                0x1fff76bc                __idata_start = .
+
+.data           0x1fff76bc        0x0
+                0x1fff76bc                __data_start = .
+ *(vtable)
+ *(.data*)
+ .data          0x1fff76bc        0x0 start.o
+ .data          0x1fff76bc        0x0 test_serial.o
+ .data          0x1fff76bc        0x0 target_serial.o
+ .data          0x1fff76bc        0x0 banner.o
+ .data          0x1fff76bc        0x0 syslog.o
+ .data          0x1fff76bc        0x0 serial.o
+ .data          0x1fff76bc        0x0 logtask.o
+ .data          0x1fff76bc        0x0 log_output.o
+ .data          0x1fff76bc        0x0 vasyslog.o
+ .data          0x1fff76bc        0x0 t_perror.o
+ .data          0x1fff76bc        0x0 strerror.o
+ .data          0x1fff76bc        0x0 kernel_cfg.o
+ .data          0x1fff76bc        0x0 libkernel.a(prc_support.o)
+ .data          0x1fff76bc        0x0 libkernel.a(target_config.o)
+ .data          0x1fff76bc        0x0 libkernel.a(target_interrupt.o)
+ .data          0x1fff76bc        0x0 libkernel.a(prc_config.o)
+ .data          0x1fff76bc        0x0 libkernel.a(startup.o)
+ .data          0x1fff76bc        0x0 libkernel.a(task.o)
+ .data          0x1fff76bc        0x0 libkernel.a(time_event.o)
+ .data          0x1fff76bc        0x0 libkernel.a(task_manage.o)
+ .data          0x1fff76bc        0x0 libkernel.a(task_sync.o)
+ .data          0x1fff76bc        0x0 libkernel.a(semaphore.o)
+ .data          0x1fff76bc        0x0 libkernel.a(sys_manage.o)
+ .data          0x1fff76bc        0x0 libkernel.a(interrupt.o)
+ .data          0x1fff76bc        0x0 libkernel.a(exception.o)
+ .data          0x1fff76bc        0x0 libkernel.a(wait.o)
+                0x1fff76bc                __idata_end = (__idata_start + SIZEOF (.data))
+                0x1fff76bc                _edata = .
+                0x1fff76bc                PROVIDE (edata, .)
+                0x1fff76bc                . = ALIGN (0x4)
+
+.bss            0x1fff76c0     0x15d0
+                0x1fff76c0                __bss_start = .
+ *(.bss*)
+ .bss           0x1fff76c0        0x0 start.o
+ .bss           0x1fff76c0        0x0 test_serial.o
+ .bss           0x1fff76c0        0x0 target_serial.o
+ .bss           0x1fff76c0        0x0 banner.o
+ .bss           0x1fff76c0      0x418 syslog.o
+ .bss           0x1fff7ad8      0x238 serial.o
+ .bss           0x1fff7d10        0x4 logtask.o
+ .bss           0x1fff7d14        0x0 log_output.o
+ .bss           0x1fff7d14        0x0 vasyslog.o
+ .bss           0x1fff7d14        0x0 t_perror.o
+ .bss           0x1fff7d14        0x0 strerror.o
+ *fill*         0x1fff7d14        0x4 00
+ .bss           0x1fff7d18      0xe00 kernel_cfg.o
+ .bss           0x1fff8b18        0x0 libkernel.a(prc_support.o)
+ .bss           0x1fff8b18        0x0 libkernel.a(target_config.o)
+ .bss           0x1fff8b18        0x0 libkernel.a(target_interrupt.o)
+ .bss           0x1fff8b18        0x0 libkernel.a(prc_config.o)
+ .bss           0x1fff8b18        0x4 libkernel.a(startup.o)
+                0x1fff8b18                _kernel_kerflg
+ .bss           0x1fff8b1c        0x0 libkernel.a(task.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(time_event.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(task_manage.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(task_sync.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(semaphore.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(sys_manage.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(interrupt.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(exception.o)
+ .bss           0x1fff8b1c        0x0 libkernel.a(wait.o)
+ *(COMMON)
+ COMMON         0x1fff8b1c       0x28 target_serial.o
+                0x1fff8b1c                siopcb_table
+ COMMON         0x1fff8b44       0x98 kernel_cfg.o
+                0x1fff8b44                _kernel_cyccb_table
+                0x1fff8b44                _kernel_pdqinib_table
+                0x1fff8b44                _kernel_pdqcb_table
+                0x1fff8b44                _kernel_dtqinib_table
+                0x1fff8b44                _kernel_dtqcb_table
+                0x1fff8b44                _kernel_semcb_table
+                0x1fff8b64                _kernel_mbxinib_table
+                0x1fff8b64                _kernel_alminib_table
+                0x1fff8b64                _kernel_flginib_table
+                0x1fff8b64                _kernel_tmevt_heap
+                0x1fff8b7c                _kernel_almcb_table
+                0x1fff8b7c                _kernel_cycinib_table
+                0x1fff8b7c                _kernel_excinib_table
+                0x1fff8b7c                _kernel_mpfcb_table
+                0x1fff8b7c                _kernel_tcb_table
+                0x1fff8bdc                _kernel_mpfinib_table
+                0x1fff8bdc                _kernel_flgcb_table
+                0x1fff8bdc                _kernel_mbxcb_table
+ COMMON         0x1fff8bdc        0x8 libkernel.a(prc_config.o)
+                0x1fff8bdc                _kernel_saved_iipm
+                0x1fff8be0                _kernel_lock_flag
+ COMMON         0x1fff8be4       0x9c libkernel.a(task.o)
+                0x1fff8be4                _kernel_p_schedtsk
+                0x1fff8be8                _kernel_reqflg
+                0x1fff8bec                _kernel_ready_queue
+                0x1fff8c6c                _kernel_dspflg
+                0x1fff8c70                _kernel_ready_primap
+                0x1fff8c74                _kernel_disdsp
+                0x1fff8c78                _kernel_p_runtsk
+                0x1fff8c7c                _kernel_ipmflg
+ COMMON         0x1fff8c80       0x10 libkernel.a(time_event.o)
+                0x1fff8c80                _kernel_min_time
+                0x1fff8c84                _kernel_current_time
+                0x1fff8c88                _kernel_next_time
+                0x1fff8c8c                _kernel_last_index
+                0x1fff8c90                . = ALIGN (0x4)
+                0x1fff8c90                . = ALIGN (0x4)
+                0x1fff8c90                _end = .
+                0x1fff8c90                __bss_end = .
+                0x1fff8c90                PROVIDE (end, .)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x21 start.o
+ .ARM.attributes
+                0x00000021       0x31 test_serial.o
+ .ARM.attributes
+                0x00000052       0x31 target_serial.o
+ .ARM.attributes
+                0x00000083       0x31 banner.o
+ .ARM.attributes
+                0x000000b4       0x31 syslog.o
+ .ARM.attributes
+                0x000000e5       0x31 serial.o
+ .ARM.attributes
+                0x00000116       0x31 logtask.o
+ .ARM.attributes
+                0x00000147       0x31 log_output.o
+ .ARM.attributes
+                0x00000178       0x31 vasyslog.o
+ .ARM.attributes
+                0x000001a9       0x31 t_perror.o
+ .ARM.attributes
+                0x000001da       0x31 strerror.o
+ .ARM.attributes
+                0x0000020b       0x31 kernel_cfg.o
+ .ARM.attributes
+                0x0000023c       0x21 libkernel.a(prc_support.o)
+ .ARM.attributes
+                0x0000025d       0x31 libkernel.a(target_config.o)
+ .ARM.attributes
+                0x0000028e       0x31 libkernel.a(target_interrupt.o)
+ .ARM.attributes
+                0x000002bf       0x31 libkernel.a(prc_config.o)
+ .ARM.attributes
+                0x000002f0       0x31 libkernel.a(startup.o)
+ .ARM.attributes
+                0x00000321       0x31 libkernel.a(task.o)
+ .ARM.attributes
+                0x00000352       0x31 libkernel.a(time_event.o)
+ .ARM.attributes
+                0x00000383       0x31 libkernel.a(task_manage.o)
+ .ARM.attributes
+                0x000003b4       0x31 libkernel.a(task_sync.o)
+ .ARM.attributes
+                0x000003e5       0x31 libkernel.a(semaphore.o)
+ .ARM.attributes
+                0x00000416       0x31 libkernel.a(sys_manage.o)
+ .ARM.attributes
+                0x00000447       0x31 libkernel.a(interrupt.o)
+ .ARM.attributes
+                0x00000478       0x31 libkernel.a(exception.o)
+ .ARM.attributes
+                0x000004a9       0x31 libkernel.a(wait.o)
+
+.comment        0x00000000       0x2a
+ *(.comment)
+ .comment       0x00000000       0x2a test_serial.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b target_serial.o
+ .comment       0x00000000       0x2b banner.o
+ .comment       0x00000000       0x2b syslog.o
+ .comment       0x00000000       0x2b serial.o
+ .comment       0x00000000       0x2b logtask.o
+ .comment       0x00000000       0x2b log_output.o
+ .comment       0x00000000       0x2b vasyslog.o
+ .comment       0x00000000       0x2b t_perror.o
+ .comment       0x00000000       0x2b strerror.o
+ .comment       0x00000000       0x2b kernel_cfg.o
+ .comment       0x00000000       0x2b libkernel.a(target_config.o)
+ .comment       0x00000000       0x2b libkernel.a(target_interrupt.o)
+ .comment       0x00000000       0x2b libkernel.a(prc_config.o)
+ .comment       0x00000000       0x2b libkernel.a(startup.o)
+ .comment       0x00000000       0x2b libkernel.a(task.o)
+ .comment       0x00000000       0x2b libkernel.a(time_event.o)
+ .comment       0x00000000       0x2b libkernel.a(task_manage.o)
+ .comment       0x00000000       0x2b libkernel.a(task_sync.o)
+ .comment       0x00000000       0x2b libkernel.a(semaphore.o)
+ .comment       0x00000000       0x2b libkernel.a(sys_manage.o)
+ .comment       0x00000000       0x2b libkernel.a(interrupt.o)
+ .comment       0x00000000       0x2b libkernel.a(exception.o)
+ .comment       0x00000000       0x2b libkernel.a(wait.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x340
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 start.o
+ .debug_aranges
+                0x00000020       0x20 test_serial.o
+ .debug_aranges
+                0x00000040       0x20 target_serial.o
+ .debug_aranges
+                0x00000060       0x20 banner.o
+ .debug_aranges
+                0x00000080       0x20 syslog.o
+ .debug_aranges
+                0x000000a0       0x20 serial.o
+ .debug_aranges
+                0x000000c0       0x20 logtask.o
+ .debug_aranges
+                0x000000e0       0x20 log_output.o
+ .debug_aranges
+                0x00000100       0x20 vasyslog.o
+ .debug_aranges
+                0x00000120       0x20 t_perror.o
+ .debug_aranges
+                0x00000140       0x20 strerror.o
+ .debug_aranges
+                0x00000160       0x20 kernel_cfg.o
+ .debug_aranges
+                0x00000180       0x20 libkernel.a(prc_support.o)
+ .debug_aranges
+                0x000001a0       0x20 libkernel.a(target_config.o)
+ .debug_aranges
+                0x000001c0       0x20 libkernel.a(target_interrupt.o)
+ .debug_aranges
+                0x000001e0       0x20 libkernel.a(prc_config.o)
+ .debug_aranges
+                0x00000200       0x20 libkernel.a(startup.o)
+ .debug_aranges
+                0x00000220       0x20 libkernel.a(task.o)
+ .debug_aranges
+                0x00000240       0x20 libkernel.a(time_event.o)
+ .debug_aranges
+                0x00000260       0x20 libkernel.a(task_manage.o)
+ .debug_aranges
+                0x00000280       0x20 libkernel.a(task_sync.o)
+ .debug_aranges
+                0x000002a0       0x20 libkernel.a(semaphore.o)
+ .debug_aranges
+                0x000002c0       0x20 libkernel.a(sys_manage.o)
+ .debug_aranges
+                0x000002e0       0x20 libkernel.a(interrupt.o)
+ .debug_aranges
+                0x00000300       0x20 libkernel.a(exception.o)
+ .debug_aranges
+                0x00000320       0x20 libkernel.a(wait.o)
+
+.debug_pubnames
+                0x00000000     0x105f
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x26 test_serial.o
+ .debug_pubnames
+                0x00000026       0xf5 target_serial.o
+ .debug_pubnames
+                0x0000011b       0x23 banner.o
+ .debug_pubnames
+                0x0000013e       0x74 syslog.o
+ .debug_pubnames
+                0x000001b2       0xcf serial.o
+ .debug_pubnames
+                0x00000281       0x4b logtask.o
+ .debug_pubnames
+                0x000002cc       0x48 log_output.o
+ .debug_pubnames
+                0x00000314       0x1d vasyslog.o
+ .debug_pubnames
+                0x00000331       0x1f t_perror.o
+ .debug_pubnames
+                0x00000350       0x25 strerror.o
+ .debug_pubnames
+                0x00000375      0x444 kernel_cfg.o
+ .debug_pubnames
+                0x000007b9       0x63 libkernel.a(target_config.o)
+ .debug_pubnames
+                0x0000081c       0x31 libkernel.a(target_interrupt.o)
+ .debug_pubnames
+                0x0000084d      0x105 libkernel.a(prc_config.o)
+ .debug_pubnames
+                0x00000952       0x55 libkernel.a(startup.o)
+ .debug_pubnames
+                0x000009a7      0x1af libkernel.a(task.o)
+ .debug_pubnames
+                0x00000b56      0x11c libkernel.a(time_event.o)
+ .debug_pubnames
+                0x00000c72       0x73 libkernel.a(task_manage.o)
+ .debug_pubnames
+                0x00000ce5       0x8d libkernel.a(task_sync.o)
+ .debug_pubnames
+                0x00000d72       0x89 libkernel.a(semaphore.o)
+ .debug_pubnames
+                0x00000dfb       0xca libkernel.a(sys_manage.o)
+ .debug_pubnames
+                0x00000ec5       0x63 libkernel.a(interrupt.o)
+ .debug_pubnames
+                0x00000f28       0x4d libkernel.a(exception.o)
+ .debug_pubnames
+                0x00000f75       0xea libkernel.a(wait.o)
+
+.debug_info     0x00000000     0xaef7
+ *(.debug_info)
+ .debug_info    0x00000000       0x7e start.o
+ .debug_info    0x0000007e       0xea test_serial.o
+ .debug_info    0x00000168      0xe1a target_serial.o
+ .debug_info    0x00000f82      0x1c5 banner.o
+ .debug_info    0x00001147      0x3b0 syslog.o
+ .debug_info    0x000014f7      0x850 serial.o
+ .debug_info    0x00001d47      0x368 logtask.o
+ .debug_info    0x000020af      0x364 log_output.o
+ .debug_info    0x00002413      0x1be vasyslog.o
+ .debug_info    0x000025d1      0x212 t_perror.o
+ .debug_info    0x000027e3       0xd8 strerror.o
+ .debug_info    0x000028bb     0x14a1 kernel_cfg.o
+ .debug_info    0x00003d5c       0x84 libkernel.a(prc_support.o)
+ .debug_info    0x00003de0      0x82d libkernel.a(target_config.o)
+ .debug_info    0x0000460d      0x6ed libkernel.a(target_interrupt.o)
+ .debug_info    0x00004cfa      0x602 libkernel.a(prc_config.o)
+ .debug_info    0x000052fc      0x1ef libkernel.a(startup.o)
+ .debug_info    0x000054eb      0xd17 libkernel.a(task.o)
+ .debug_info    0x00006202      0x619 libkernel.a(time_event.o)
+ .debug_info    0x0000681b      0x9d4 libkernel.a(task_manage.o)
+ .debug_info    0x000071ef      0xad8 libkernel.a(task_sync.o)
+ .debug_info    0x00007cc7      0xc94 libkernel.a(semaphore.o)
+ .debug_info    0x0000895b      0x9bc libkernel.a(sys_manage.o)
+ .debug_info    0x00009317      0xa25 libkernel.a(interrupt.o)
+ .debug_info    0x00009d3c      0x6ba libkernel.a(exception.o)
+ .debug_info    0x0000a3f6      0xb01 libkernel.a(wait.o)
+
+.debug_abbrev   0x00000000     0x24db
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 start.o
+ .debug_abbrev  0x00000014       0x81 test_serial.o
+ .debug_abbrev  0x00000095      0x22d target_serial.o
+ .debug_abbrev  0x000002c2       0xbf banner.o
+ .debug_abbrev  0x00000381      0x12b syslog.o
+ .debug_abbrev  0x000004ac      0x185 serial.o
+ .debug_abbrev  0x00000631      0x10f logtask.o
+ .debug_abbrev  0x00000740       0xed log_output.o
+ .debug_abbrev  0x0000082d       0xe1 vasyslog.o
+ .debug_abbrev  0x0000090e       0xcc t_perror.o
+ .debug_abbrev  0x000009da       0x7c strerror.o
+ .debug_abbrev  0x00000a56      0x1a7 kernel_cfg.o
+ .debug_abbrev  0x00000bfd       0x14 libkernel.a(prc_support.o)
+ .debug_abbrev  0x00000c11      0x18d libkernel.a(target_config.o)
+ .debug_abbrev  0x00000d9e      0x10b libkernel.a(target_interrupt.o)
+ .debug_abbrev  0x00000ea9      0x1d2 libkernel.a(prc_config.o)
+ .debug_abbrev  0x0000107b       0xf6 libkernel.a(startup.o)
+ .debug_abbrev  0x00001171      0x287 libkernel.a(task.o)
+ .debug_abbrev  0x000013f8      0x221 libkernel.a(time_event.o)
+ .debug_abbrev  0x00001619      0x216 libkernel.a(task_manage.o)
+ .debug_abbrev  0x0000182f      0x22c libkernel.a(task_sync.o)
+ .debug_abbrev  0x00001a5b      0x25f libkernel.a(semaphore.o)
+ .debug_abbrev  0x00001cba      0x216 libkernel.a(sys_manage.o)
+ .debug_abbrev  0x00001ed0      0x24f libkernel.a(interrupt.o)
+ .debug_abbrev  0x0000211f      0x1c3 libkernel.a(exception.o)
+ .debug_abbrev  0x000022e2      0x1f9 libkernel.a(wait.o)
+
+.debug_line     0x00000000     0x2bea
+ *(.debug_line)
+ .debug_line    0x00000000       0x77 start.o
+ .debug_line    0x00000077       0x7b test_serial.o
+ .debug_line    0x000000f2      0x179 target_serial.o
+ .debug_line    0x0000026b       0xa8 banner.o
+ .debug_line    0x00000313      0x104 syslog.o
+ .debug_line    0x00000417      0x328 serial.o
+ .debug_line    0x0000073f      0x11a logtask.o
+ .debug_line    0x00000859      0x15a log_output.o
+ .debug_line    0x000009b3      0x170 vasyslog.o
+ .debug_line    0x00000b23       0xae t_perror.o
+ .debug_line    0x00000bd1       0xab strerror.o
+ .debug_line    0x00000c7c      0x1bd kernel_cfg.o
+ .debug_line    0x00000e39      0x14d libkernel.a(prc_support.o)
+ .debug_line    0x00000f86      0x16a libkernel.a(target_config.o)
+ .debug_line    0x000010f0       0xcb libkernel.a(target_interrupt.o)
+ .debug_line    0x000011bb      0x1e6 libkernel.a(prc_config.o)
+ .debug_line    0x000013a1       0xfd libkernel.a(startup.o)
+ .debug_line    0x0000149e      0x2d9 libkernel.a(task.o)
+ .debug_line    0x00001777      0x200 libkernel.a(time_event.o)
+ .debug_line    0x00001977      0x343 libkernel.a(task_manage.o)
+ .debug_line    0x00001cba      0x398 libkernel.a(task_sync.o)
+ .debug_line    0x00002052      0x312 libkernel.a(semaphore.o)
+ .debug_line    0x00002364      0x28c libkernel.a(sys_manage.o)
+ .debug_line    0x000025f0      0x24e libkernel.a(interrupt.o)
+ .debug_line    0x0000283e      0x16c libkernel.a(exception.o)
+ .debug_line    0x000029aa      0x240 libkernel.a(wait.o)
+
+.debug_frame    0x00000000     0x21c8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 test_serial.o
+ .debug_frame   0x00000050      0x1ec target_serial.o
+ .debug_frame   0x0000023c       0x50 banner.o
+ .debug_frame   0x0000028c       0xec syslog.o
+ .debug_frame   0x00000378      0x1e0 serial.o
+ .debug_frame   0x00000558       0xb0 logtask.o
+ .debug_frame   0x00000608       0x90 log_output.o
+ .debug_frame   0x00000698       0x38 vasyslog.o
+ .debug_frame   0x000006d0       0x50 t_perror.o
+ .debug_frame   0x00000720       0x2c strerror.o
+ .debug_frame   0x0000074c       0xb8 kernel_cfg.o
+ .debug_frame   0x00000804       0xec libkernel.a(target_config.o)
+ .debug_frame   0x000008f0       0x48 libkernel.a(target_interrupt.o)
+ .debug_frame   0x00000938      0x1d4 libkernel.a(prc_config.o)
+ .debug_frame   0x00000b0c       0x88 libkernel.a(startup.o)
+ .debug_frame   0x00000b94      0x374 libkernel.a(task.o)
+ .debug_frame   0x00000f08      0x200 libkernel.a(time_event.o)
+ .debug_frame   0x00001108      0x278 libkernel.a(task_manage.o)
+ .debug_frame   0x00001380      0x294 libkernel.a(task_sync.o)
+ .debug_frame   0x00001614      0x290 libkernel.a(semaphore.o)
+ .debug_frame   0x000018a4      0x2b4 libkernel.a(sys_manage.o)
+ .debug_frame   0x00001b58      0x250 libkernel.a(interrupt.o)
+ .debug_frame   0x00001da8       0xe8 libkernel.a(exception.o)
+ .debug_frame   0x00001e90      0x338 libkernel.a(wait.o)
+
+.debug_str      0x00000000     0x2865
+ *(.debug_str)
+ .debug_str     0x00000000       0xc9 test_serial.o
+                                0x10c (size before relaxing)
+ .debug_str     0x000000c9      0x9a2 target_serial.o
+                                0xac2 (size before relaxing)
+ .debug_str     0x00000a6b       0x76 banner.o
+                                0x176 (size before relaxing)
+ .debug_str     0x00000ae1      0x147 syslog.o
+                                0x296 (size before relaxing)
+ .debug_str     0x00000c28      0x2af serial.o
+                                0x3ed (size before relaxing)
+ .debug_str     0x00000ed7       0x74 logtask.o
+                                0x233 (size before relaxing)
+ .debug_str     0x00000f4b       0xa8 log_output.o
+                                0x1dd (size before relaxing)
+ .debug_str     0x00000ff3       0x3f vasyslog.o
+                                0x175 (size before relaxing)
+ .debug_str     0x00001032       0x48 t_perror.o
+                                0x18c (size before relaxing)
+ .debug_str     0x0000107a       0x2b strerror.o
+                                0x114 (size before relaxing)
+ .debug_str     0x000010a5      0xa76 kernel_cfg.o
+                               0x1274 (size before relaxing)
+ .debug_str     0x00001b1b      0x1cc libkernel.a(target_config.o)
+                                0x403 (size before relaxing)
+ .debug_str     0x00001ce7      0x10d libkernel.a(target_interrupt.o)
+                                0x83e (size before relaxing)
+ .debug_str     0x00001df4      0x145 libkernel.a(prc_config.o)
+                                0x35f (size before relaxing)
+ .debug_str     0x00001f39       0x4d libkernel.a(startup.o)
+                                0x1b8 (size before relaxing)
+ .debug_str     0x00001f86      0x354 libkernel.a(task.o)
+                                0x71e (size before relaxing)
+ .debug_str     0x000022da      0x10a libkernel.a(time_event.o)
+                                0x395 (size before relaxing)
+ .debug_str     0x000023e4       0x9d libkernel.a(task_manage.o)
+                                0x4b6 (size before relaxing)
+ .debug_str     0x00002481       0x6d libkernel.a(task_sync.o)
+                                0x4d1 (size before relaxing)
+ .debug_str     0x000024ee       0xd9 libkernel.a(semaphore.o)
+                                0x689 (size before relaxing)
+ .debug_str     0x000025c7       0x7f libkernel.a(sys_manage.o)
+                                0x486 (size before relaxing)
+ .debug_str     0x00002646       0x85 libkernel.a(interrupt.o)
+                                0x56d (size before relaxing)
+ .debug_str     0x000026cb       0x9e libkernel.a(exception.o)
+                                0x439 (size before relaxing)
+ .debug_str     0x00002769       0xfc libkernel.a(wait.o)
+                                0x62e (size before relaxing)
+
+.debug_loc      0x00000000     0x398d
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x70 test_serial.o
+ .debug_loc     0x00000070      0x380 target_serial.o
+ .debug_loc     0x000003f0       0x70 banner.o
+ .debug_loc     0x00000460      0x188 syslog.o
+ .debug_loc     0x000005e8      0x348 serial.o
+ .debug_loc     0x00000930      0x11a logtask.o
+ .debug_loc     0x00000a4a       0xe1 log_output.o
+ .debug_loc     0x00000b2b       0x46 vasyslog.o
+ .debug_loc     0x00000b71       0x70 t_perror.o
+ .debug_loc     0x00000be1       0x38 strerror.o
+ .debug_loc     0x00000c19      0x120 kernel_cfg.o
+ .debug_loc     0x00000d39      0x184 libkernel.a(target_config.o)
+ .debug_loc     0x00000ebd       0x70 libkernel.a(target_interrupt.o)
+ .debug_loc     0x00000f2d      0x324 libkernel.a(prc_config.o)
+ .debug_loc     0x00001251       0xc8 libkernel.a(startup.o)
+ .debug_loc     0x00001319      0x61c libkernel.a(task.o)
+ .debug_loc     0x00001935      0x37c libkernel.a(time_event.o)
+ .debug_loc     0x00001cb1      0x43c libkernel.a(task_manage.o)
+ .debug_loc     0x000020ed      0x468 libkernel.a(task_sync.o)
+ .debug_loc     0x00002555      0x468 libkernel.a(semaphore.o)
+ .debug_loc     0x000029bd      0x4ac libkernel.a(sys_manage.o)
+ .debug_loc     0x00002e69      0x404 libkernel.a(interrupt.o)
+ .debug_loc     0x0000326d      0x188 libkernel.a(exception.o)
+ .debug_loc     0x000033f5      0x598 libkernel.a(wait.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(asp elf32-littlearm)
+
+.debug_pubtypes
+                0x00000000     0x2088
+ .debug_pubtypes
+                0x00000000       0x2b test_serial.o
+ .debug_pubtypes
+                0x0000002b      0x13a target_serial.o
+ .debug_pubtypes
+                0x00000165       0x4c banner.o
+ .debug_pubtypes
+                0x000001b1       0xa5 syslog.o
+ .debug_pubtypes
+                0x00000256       0xef serial.o
+ .debug_pubtypes
+                0x00000345       0xbc logtask.o
+ .debug_pubtypes
+                0x00000401       0x70 log_output.o
+ .debug_pubtypes
+                0x00000471       0x84 vasyslog.o
+ .debug_pubtypes
+                0x000004f5       0x5d t_perror.o
+ .debug_pubtypes
+                0x00000552       0x2e strerror.o
+ .debug_pubtypes
+                0x00000580      0x61d kernel_cfg.o
+ .debug_pubtypes
+                0x00000b9d      0x124 libkernel.a(target_config.o)
+ .debug_pubtypes
+                0x00000cc1       0x6f libkernel.a(target_interrupt.o)
+ .debug_pubtypes
+                0x00000d30       0xd5 libkernel.a(prc_config.o)
+ .debug_pubtypes
+                0x00000e05       0x5f libkernel.a(startup.o)
+ .debug_pubtypes
+                0x00000e64      0x275 libkernel.a(task.o)
+ .debug_pubtypes
+                0x000010d9       0xcf libkernel.a(time_event.o)
+ .debug_pubtypes
+                0x000011a8      0x1c5 libkernel.a(task_manage.o)
+ .debug_pubtypes
+                0x0000136d      0x1e6 libkernel.a(task_sync.o)
+ .debug_pubtypes
+                0x00001553      0x2f8 libkernel.a(semaphore.o)
+ .debug_pubtypes
+                0x0000184b      0x1b9 libkernel.a(sys_manage.o)
+ .debug_pubtypes
+                0x00001a04      0x234 libkernel.a(interrupt.o)
+ .debug_pubtypes
+                0x00001c38      0x1ef libkernel.a(exception.o)
+ .debug_pubtypes
+                0x00001e27      0x261 libkernel.a(wait.o)

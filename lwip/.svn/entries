@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/lwip"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="CHANGELOG"
+   checksum="925b834d2f9fa76918f139fc02cc7f5c"
+   last-author="hcx"
+   text-time="2012-03-05T08:25:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="COPYING"
+   checksum="59a383b05013356e0c9899b06dc5da3f"
+   last-author="hcx"
+   text-time="2012-03-05T08:25:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="FILES"
+   checksum="ccc1f1b9d869c606359cf7c8747447fc"
+   last-author="hcx"
+   text-time="2012-03-05T08:25:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="README"
+   checksum="99831114e7cd8be057821c155548c746"
+   last-author="hcx"
+   text-time="2012-03-05T08:25:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="test"
+   kind="dir"/>
+</wc-entries>

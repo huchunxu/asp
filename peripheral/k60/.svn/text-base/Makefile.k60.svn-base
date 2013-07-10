@@ -1,0 +1,29 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.k60
+#
+#		Description:
+#
+#       Version:  0.1
+#       Created:  2012-09-03 16:38:35
+#		Author:  Hu Chunxu , hcx196@gmail.com
+#		Company:  HUST-Renesas Lab
+#		Revision:  
+# =====================================================================================
+#		@0.1   Hu Chunxu 2012-09-03	create orignal file
+# =====================================================================================
+
+
+K60_ROOT = $(SRCDIR)/peripheral/k60
+
+K60_DIR = $(K60_ROOT)
+
+K60_COBJS := $(K60_COBJS) target_gpio.o target_lptmr.o target_spi.o\
+					target_pwm.o target_pit.o target_adc.o target_decoder.o
+SYSSVC_DIR := $(SYSSVC_DIR) $(K60_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(K60_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(K60_CFLAGS)
+
+INCLUDES := $(INCLUDES)	-I$(K60_ROOT)
+

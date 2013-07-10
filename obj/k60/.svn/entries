@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/obj/k60"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="camera_car"
+   kind="dir"/>
+<entry
+   name="electromagnetic_car"
+   kind="dir"/>
+<entry
+   name="laser_car"
+   kind="dir"/>
+<entry
+   name="sample"
+   kind="dir"/>
+<entry
+   name="test_dispatcher"
+   kind="dir"/>
+<entry
+   name="test_interrupt"
+   kind="dir"/>
+<entry
+   name="test_laser_car"
+   kind="dir"/>
+<entry
+   name="test_lwip"
+   kind="dir"/>
+<entry
+   name="test_mailbox"
+   kind="dir"/>
+<entry
+   name="test_ntshell"
+   kind="dir"/>
+<entry
+   name="test_sd"
+   kind="dir"/>
+<entry
+   name="test_serial"
+   kind="dir"/>
+<entry
+   name="test_tinet"
+   kind="dir"/>
+</wc-entries>

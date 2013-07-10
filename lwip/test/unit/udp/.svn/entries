@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/lwip/test/unit/udp"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="test_udp.c"
+   checksum="2c4e4ed019ed00286e27635cab0db57b"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="test_udp.h"
+   checksum="d99f4f9b7c4f6a3d13594a169a80a41d"
+   last-author="hcx"
+   text-time="2012-03-05T08:26:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

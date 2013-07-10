@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/kernel"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile.kernel"
+   checksum="3a51e81fbb86f2b416afc91e3b39c765"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:44.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:07.000000Z"/>
+<entry
+   name="alarm.c"
+   checksum="f153f5ac5c8a91686f42e2656737ea43"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="alarm.h"
+   checksum="09f93c56b2acd7faa6e5eb5e65f6a809"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="allfunc.h"
+   checksum="c4f0b1a25cea64c682302e9bd581f856"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="check.h"
+   checksum="8a2c42db83a57abd9ff1b2361e3930fa"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="cyclic.c"
+   checksum="d663639289a1614980d27ca9e578d53d"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="cyclic.h"
+   checksum="9749e2406a3616997821e70fdd2484d3"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="dataqueue.c"
+   checksum="04288a58285e71f9c47d51de765436d4"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="dataqueue.h"
+   checksum="2e7afb8d6021759785f0c808fa3a3043"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="eventflag.c"
+   checksum="e8b47ebc1a4b031ea5e836b84b82f558"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="eventflag.h"
+   checksum="a7bc300184d2f21d064dc2c3f240fde1"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="exception.c"
+   checksum="bc7cb68e0ced0a6143cad23accbc2929"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="exception.h"
+   checksum="bda465c42d589d50d8d2e9f40eb56377"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="genoffset.tf"
+   checksum="3c7a6c9d3258a8230b61b47bc9d8d791"
+   last-author="hcx"
+   text-time="2011-04-03T02:33:08.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="interrupt.c"
+   checksum="40716b60c6d63574984181122aefa6d1"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="interrupt.h"
+   checksum="f5c520bfba13fe9ea5657700cb97d8a3"
+   last-author="hcx"
+   text-time="2012-04-16T06:53:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="kernel.tf"
+   checksum="0ae8d1f0595b17b5d5299847651eb05a"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:44.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:06.000000Z"/>
+<entry
+   name="kernel_api.csv"
+   checksum="7ba97cd915de812758c7b411b331495f"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:44.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:57.000000Z"/>
+<entry
+   name="kernel_check.tf"
+   checksum="03d9b5efb55fd5927e4f379bcb1086c6"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:44.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:36.000000Z"/>
+<entry
+   name="kernel_def.csv"
+   checksum="345f67b866dcac53c7419cfd208be860"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:44.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:50.000000Z"/>
+<entry
+   name="kernel_impl.h"
+   checksum="75eb970d637185610b03b2bf181dab2b"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="kernel_int.h"
+   checksum="199af20de341256e26f0d832b61bac6d"
+   last-author="hcx"
+   text-time="2012-04-19T02:27:22.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="kernel_rename.def"
+   checksum="44cee8fc184e315600a91506c9f1e7a7"
+   last-author="hcx"
+   text-time="2008-09-28T07:29:44.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:42.000000Z"/>
+<entry
+   name="kernel_rename.h"
+   checksum="97f8a182953234c7ef8d3b889dcc16dc"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="kernel_unrename.h"
+   checksum="eca1c7ea863cdeddddcec4140aa76a6e"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="mailbox.c"
+   checksum="7df1dcf4acd5d1cb95a788650d00cdb9"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="mailbox.h"
+   checksum="6219fc6665d4242c6f79725d7886af7f"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="mempfix.c"
+   checksum="056c53aa228797e7f862b1cba8e401b9"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="mempfix.h"
+   checksum="ca28f0b874b29416c332477ff8fbd4f3"
+   last-author="hcx"
+   text-time="2012-04-17T02:33:24.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="pridataq.c"
+   checksum="7e6a736ff0086944eeefb2a7f8171a15"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="pridataq.h"
+   checksum="3530e6153033681ba28f9eb6c0843dad"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="semaphore.c"
+   checksum="c703562a9e93dcd39c8451de8a21bb63"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="semaphore.h"
+   checksum="b506b9c711bb85b3de40fbd09b5b0243"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="startup.c"
+   checksum="0a5d34d4012f09e3de77ab447a4c0a20"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="sys_manage.c"
+   checksum="f9e766812e74993ec38ba304a0ccb8bb"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="task.c"
+   checksum="7d588439a69064089d7e09fa3d4be39d"
+   last-author="hcx"
+   text-time="2012-04-19T02:55:50.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="task.h"
+   checksum="4c1f887c9487af919331b1bc6a3ef29f"
+   last-author="hcx"
+   text-time="2012-04-20T02:24:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="task_except.c"
+   checksum="670b026be553e3375f565539d8f7860c"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="task_manage.c"
+   checksum="b82ce61ff1d57ce2dd86743ff0bab18f"
+   last-author="hcx"
+   text-time="2012-04-19T02:44:22.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="task_refer.c"
+   checksum="c2912bedda94a0f0319bf02a27b43a0d"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:02.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="task_sync.c"
+   checksum="a2e6e39e5e61407ae0b5fc3bb63fd2e4"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="time_event.c"
+   checksum="82ee6eddac126cd543706ae15377fee1"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="time_event.h"
+   checksum="00ce6df7c0dc443e1cb0d61114aa1a5f"
+   last-author="hcx"
+   text-time="2012-09-08T03:21:41.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="time_manage.c"
+   checksum="062c03e2cc28e17bbe1fc3d74ee42c85"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="wait.c"
+   checksum="af2371f62c5fc63d453e04a298e83e1d"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="wait.h"
+   checksum="6e2134d4c2ab06dbe2315bf714d41922"
+   last-author="hcx"
+   text-time="2011-12-12T09:12:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/tinet/netdev/if_lpc"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile.tinet"
+   checksum="6a8d47d3d4e8bedb0d31eeb32c740ab0"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="if_lpc.c"
+   checksum="df8802de2fd413d662830e949f7456e1"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="if_lpc.h"
+   checksum="9141123951e3e8b3520bf30d12a75e4b"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="if_lpcreg.h"
+   checksum="979008684fe7eed26a6788eac950292d"
+   last-author="hcx"
+   text-time="2012-10-18T15:50:34.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="nic_asp.cfg"
+   checksum="607d959c40cdeaa6942464fa0e2eed02"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="nic_rename.h"
+   checksum="fcadcf3edd0bdf5e1d7a00f090457385"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_nic_config.h"
+   checksum="948aaa14f707dbf208db76cc8b63b3f1"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_nic_defs.h"
+   checksum="cfb7a090f5565573a7663af286a1fe92"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

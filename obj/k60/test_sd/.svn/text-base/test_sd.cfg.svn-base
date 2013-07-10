@@ -1,0 +1,20 @@
+/*
+ *  @(#) $Id: sample1.cfg 718 2008-01-01 12:30:48Z hiro $
+ */
+
+/*
+ *  the system configuration file of sample program (1)
+ */
+INCLUDE("target_timer.cfg");
+INCLUDE("syssvc/serial.cfg");
+
+#include "test_sd.h"
+CRE_TSK(TASK1, { TA_ACT, 1, task1, HIGH_PRIORITY, STACK_SIZE, NULL });
+CRE_TSK(TASK2, { TA_ACT, 2, task2, MID_PRIORITY, STACK_SIZE, NULL });
+
+INCLUDE("light.cfg");
+INCLUDE("speaker.cfg");
+INCLUDE("switch.cfg");
+INCLUDE("motor.cfg");
+INCLUDE("steer.cfg");
+INCLUDE("decoder.cfg");

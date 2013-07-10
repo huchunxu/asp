@@ -1,0 +1,99 @@
+#
+#  @(#) $Id: Makefile.target 839 2008-03-20 14:50:50Z honda $
+#	2012-08-30,modified by Hu Chunxu 
+# 
+
+#
+#		Target dependent makefile (for k60)
+#
+
+#
+#  definition of borad, processor and enviroment
+# 
+BOARD = k60
+PRC   = arm_m
+TOOL  = gcc
+
+#
+# definition for flash debug
+#
+FLASH_DBG  = 
+
+#
+#  definition for GNU tools, arm-elf etc.
+#
+GCC_TARGET = arm-none-eabi
+
+#
+# complie option 
+#
+INCLUDES := $(INCLUDES) -I$(TARGETDIR)
+COPTS := $(COPTS) -mcpu=cortex-m4
+LDFLAGS := $(LDFLAGS)
+
+#
+#  kernel related definition
+# 
+KERNEL_DIR := $(KERNEL_DIR) $(TARGETDIR)
+KERNEL_ASMOBJS := $(KERNEL_ASMOBJS) target_support.o 
+KERNEL_COBJS := $(KERNEL_COBJS) target_config.o prc_timer.o target_interrupt.o
+KERNEL_CFLAGS := $(KERNEL_CFLAGS) -fno-strict-aliasing -mcpu=cortex-m4
+
+#
+#  system service related definiton
+#
+SYSSVC_DIR := $(SYSSVC_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) target_serial.o
+
+#
+#  option ofr configuration
+#
+CFG_TABS := $(CFG_TABS) --cfg1-def-table $(TARGETDIR)/target_def.csv
+
+#
+#  Tracelog related definition
+#
+ifeq ($(ENABLE_TRACE),true)
+	COPTS := $(COPTS) -DTOPPERS_ENABLE_TRACE
+	KERNEL_DIR := $(KERNEL_DIR) $(SRCDIR)/arch/logtrace
+	KERNEL_COBJS := $(KERNEL_COBJS) trace_config.o trace_dump.o
+endif
+
+
+#
+#  definition of link script
+#
+ifdef FLASH_DBG
+LDSCRIPT = $(TARGETDIR)/k60_FLASH.ld	
+else														
+LDSCRIPT = $(TARGETDIR)/k60_RAM.ld
+endif
+
+#
+#  definition of startup module
+#
+#  if startup module id defined in ld scirpt(STARTUP(start.o)), there is no 
+#  need to link it in command line, or there may be a link error.
+#
+HIDDEN_OBJS = start.o
+
+$(HIDDEN_OBJS): %.o: %.S
+	$(CC) -c $(CFLAGS) $(KERNEL_CFLAGS) $<
+
+$(HIDDEN_OBJS:.o=.d): %.d: %.S
+	@$(PERL) $(SRCDIR)/utils/makedep -C $(CC) \
+		-O "$(CFLAGS) $(KERNEL_CFLAGS)" $< >> Makefile.depend
+
+LDFLAGS := $(LDFLAGS)
+
+#
+# definition of dependent relation 
+#
+cfg1_out.c: $(TARGETDIR)/target_def.csv
+kernel_cfg.timestamp: $(TARGETDIR)/target.tf
+$(OBJFILE): $(TARGETDIR)/target_check.tf
+
+#
+#  include processor dependent make file
+#
+include $(SRCDIR)/arch/$(PRC)_$(TOOL)/Makefile.prc

@@ -1,0 +1,41 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  task_ntshell_serail.cfg
+ *
+ *    Description:  nt shell task cfg file
+ *
+ *        Version:  0.1
+ *        Created:  2011/11/14 16:55:53
+ *
+ *         Author:  Ren Wei , renweihust@gmail.com
+ *        Company:  HUST-Renesas Lab
+ *       Revision:  
+ * =====================================================================================
+ *	@0.1 	Ren Wei	2011/11/14	create orignal file
+ * =====================================================================================
+ */
+INCLUDE("target_timer.cfg");
+INCLUDE("syssvc/syslog.cfg");
+INCLUDE("syssvc/banner.cfg");
+INCLUDE("syssvc/serial.cfg");
+INCLUDE("syssvc/logtask.cfg");
+
+
+#include "task_ntshell.h"
+
+CRE_TSK(TASK_NTSHELL_SERIAL, {TA_ACT, 0, task_ntshell, TSKPRI_NTSHELL, STACK_SIZE_NTSHELL, NULL});
+
+CRE_SEM(NTSHELL_CALL_SEM, {TA_TPRI, 1, 1});
+
+INCLUDE("light.cfg");
+INCLUDE("speaker.cfg");
+INCLUDE("switch.cfg");
+INCLUDE("motor.cfg");
+INCLUDE("decoder.cfg");
+INCLUDE("demo_light.cfg");
+INCLUDE("demo_speaker.cfg");
+INCLUDE("demo_switch.cfg");
+INCLUDE("demo_decoder.cfg");
+INCLUDE("demo_motor.cfg");
+INCLUDE("demo_help.cfg");

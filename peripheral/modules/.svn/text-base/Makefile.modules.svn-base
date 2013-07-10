@@ -1,0 +1,30 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.peripheral
+#
+#		Description:
+#
+#       Version:  0.1
+#       Created:  2012-09-03 16:38:35
+#		Author:  Hu Chunxu , hcx196@gmail.com
+#		Company:  HUST-Renesas Lab
+#		Revision:  
+# =====================================================================================
+#		@0.1   Hu Chunxu 2012-09-03	create orignal file
+# =====================================================================================
+
+include $(SRCDIR)/peripheral/k60/Makefile.k60
+
+PERIPHERAL_ROOT = $(SRCDIR)/peripheral/modules
+
+PERIPHERAL_DIR = $(PERIPHERAL_ROOT)
+
+PERIPHERAL_COBJS := $(PERIPHERAL_COBJS) light.o speaker.o switch.o\
+                    steer.o motor.o decoder.o mmc.o sd_rw.o sd_send.o sd.o
+
+SYSSVC_DIR := $(SYSSVC_DIR) $(PERIPHERAL_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(PERIPHERAL_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(PERIPHERAL_CFLAGS)
+
+INCLUDES := $(INCLUDES)	-I$(PERIPHERAL_ROOT)

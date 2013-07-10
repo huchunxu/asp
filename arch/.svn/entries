@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/arch"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="arm_m_gcc"
+   kind="dir"/>
+<entry
+   name="gcc"
+   kind="dir"/>
+<entry
+   name="logtrace"
+   kind="dir"/>
+<entry
+   name="m68k_gcc"
+   kind="dir"/>
+</wc-entries>

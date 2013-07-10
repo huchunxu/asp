@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/tinet/doc"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet-1.5.pdf"
+   checksum="42e750447b6cdb7a9a8102da3e44319b"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet-1.5.txt"
+   checksum="58b5d64ed16011d6e80482828483a67b"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet.pdf"
+   checksum="4053cefc920de4053226b4bec086acd2"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:24.000000Z"/>
+<entry
+   name="tinet.txt"
+   checksum="7b8769700c1ee866005f2bc918cb953b"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_chg.pdf"
+   checksum="e1894afe3999fc90cb75fbe4e66f071e"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:20.000000Z"/>
+<entry
+   name="tinet_chg.txt"
+   checksum="45d29c86e32c6d3c0fa5ab10b0904d9a"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_config.pdf"
+   checksum="6e657a891da6c92a438e361768bebd95"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_config.txt"
+   checksum="69ccbd38d8864177c46953321425cfd1"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_defs.pdf"
+   checksum="a673de28f8012ab3ccee87eb96488cfd"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:50.000000Z"/>
+<entry
+   name="tinet_defs.txt"
+   checksum="33ccfb37064081d73c44b0537dbbb4a4"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_ether.pdf"
+   checksum="c8c119f082adfc47fff8481c562ef4a9"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

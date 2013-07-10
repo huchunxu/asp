@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/tinet/asp_sample"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile"
+   checksum="39892023cc7063e8b8c9855a4f3249f2"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile.minsv"
+   checksum="7fc27daad92374821556f9da6175a8c8"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile.nserv"
+   checksum="0789407fa9a75594484360547f959192"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="echos4.c"
+   checksum="2407b04c38cbbcf9403b891e242c02f6"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="echos4.cfg"
+   checksum="377534f32a951b6a1aba65f514d4d739"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="echos4.h"
+   checksum="9e1a50d6932a73685674427e289c3525"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="echos6.c"
+   checksum="520b0fd5494b4a6b3c81b56b46b413f0"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="echos6.cfg"
+   checksum="fa98783cb0ccfb42db5e6384e7ec5a89"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="echos6.h"
+   checksum="486b5a59c7caf83a3909b9de015021bd"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="minsv.c"
+   checksum="c4b37b6a1a0f74521df1e0fe7784e8fe"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="minsv.cfg"
+   checksum="f304884d597120cab975812624545bad"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="minsv.h"
+   checksum="210945b89d185cddf75b6893529d2c06"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="nserv.c"
+   checksum="2688c71f00f78446f211d894f3e05c9f"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="nserv.cfg"
+   checksum="d47e7f077fc345f702d603b0ebc198bf"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="nserv.h"
+   checksum="c4e829c4489cddf22731846ca7711acb"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="route_cfg.c"
+   checksum="6aa8a463d47de8ba28d8a8f48e2fee70"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="sample1n.c"
+   checksum="5a134cc2f30055e22c4832e736d95409"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="sample1n.cfg"
+   checksum="14836103c91f15c1ae864a7e95fd7fec"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="sample1n.h"
+   checksum="6c9598c50c43ad0b5ac0ad992c4834fc"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_app_config.h"
+   checksum="a5cce5b09ff5488cefb43704085071fe"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_app_config.h.minsv"
+   checksum="e9da1ad3ccac73b1a746279c9fbdaaa5"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_echos4.cfg"
+   checksum="55bca1bc8df93e726d5503edd416f384"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_echos6.cfg"
+   checksum="761fe3b442251e1aaed586e3e77c8f9a"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_minsv.cfg"
+   checksum="52f0183371c62494984608590bc34c71"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_nserv.cfg"
+   checksum="12a94ebe4026ffea6682ed9264f7ad2d"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_sample1n.cfg"
+   checksum="059b1b18e6c04ae6159095b9aa411149"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_usrv4.cfg"
+   checksum="254a503fa9019a328c6992eac9475ec3"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="tinet_usrv6.cfg"
+   checksum="930909e4aece9a45be6b762624fa681a"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="usrv4.c"
+   checksum="73c1246a23c58b7733e2d6c9ba6f3924"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="usrv4.cfg"
+   checksum="eac5fd45f2ac5ed85ab2dd2f4a6a016d"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="usrv4.h"
+   checksum="3f3e4465c1fc3ef80cb9b885e46535f0"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="usrv6.c"
+   checksum="0b7fd0f9a5c88056fb6984e84f745252"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="usrv6.cfg"
+   checksum="684aff50c9e6f49e4bb3cc7bc34b0930"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="usrv6.h"
+   checksum="093f67cb2cefedfded5714b2e0833fba"
+   last-author="hcx"
+   text-time="2012-07-26T07:57:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

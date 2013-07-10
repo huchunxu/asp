@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/utils"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="applyrename"
+   checksum="805a8cb28d7ad704330675a61c1c16af"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:27.000000Z"/>
+<entry
+   name="genoffset"
+   checksum="9990d13cf95e25e0b68cd13b9aa7bf49"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:38.000000Z"/>
+<entry
+   name="genrename"
+   checksum="d919cc4e551bbe4c1722d086eb045e9d"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:16.000000Z"/>
+<entry
+   name="gentest"
+   checksum="46100254194631d958f0a8f02fc65443"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:50.000000Z"/>
+<entry
+   name="makedep"
+   checksum="8e57dc5b1dba8c95f8b14ebd6d0b7534"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:47.000000Z"/>
+<entry
+   name="makerelease"
+   checksum="c57e1ab56a8c9117311c596066b4d2fc"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:00.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:09.000000Z"/>
+</wc-entries>

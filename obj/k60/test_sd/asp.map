@@ -1,0 +1,1665 @@
+Archive member included because of file (symbol)
+
+libkernel.a(prc_support.o)    kernel_cfg.o (_kernel_exc_entry)
+libkernel.a(target_config.o)  syslog.o (target_fput_log)
+libkernel.a(prc_timer.o)      kernel_cfg.o (target_timer_initialize)
+libkernel.a(target_interrupt.o)
+                              target_serial.o (exc_enable)
+libkernel.a(prc_config.o)     libkernel.a(prc_support.o) (_kernel_lock_flag)
+libkernel.a(startup.o)        start.o (sta_ker)
+libkernel.a(task.o)           libkernel.a(prc_support.o) (_kernel_p_runtsk)
+libkernel.a(time_event.o)     syslog.o (_kernel_current_time)
+libkernel.a(task_manage.o)    libkernel.a(prc_support.o) (ext_tsk)
+libkernel.a(task_sync.o)      test_sd.o (wup_tsk)
+libkernel.a(semaphore.o)      kernel_cfg.o (_kernel_initialize_semaphore)
+libkernel.a(sys_manage.o)     serial.o (loc_cpu)
+libkernel.a(interrupt.o)      kernel_cfg.o (_kernel_initialize_interrupt)
+libkernel.a(exception.o)      kernel_cfg.o (_kernel_initialize_exception)
+libkernel.a(wait.o)           libkernel.a(task_sync.o) (_kernel_make_wait_tmout)
+
+Allocating common symbols
+Common symbol       size              file
+
+Fatfs               0x234             sd.o
+_kernel_cyccb_table
+                    0x0               kernel_cfg.o
+_kernel_p_schedtsk  0x4               libkernel.a(task.o)
+_kernel_pdqinib_table
+                    0x0               kernel_cfg.o
+_kernel_pdqcb_table
+                    0x0               kernel_cfg.o
+_kernel_dtqinib_table
+                    0x0               kernel_cfg.o
+_kernel_min_time    0x4               libkernel.a(time_event.o)
+_kernel_dtqcb_table
+                    0x0               kernel_cfg.o
+_kernel_reqflg      0x4               libkernel.a(task.o)
+_kernel_ready_queue
+                    0x80              libkernel.a(task.o)
+_kernel_semcb_table
+                    0x20              kernel_cfg.o
+_kernel_mbxinib_table
+                    0x0               kernel_cfg.o
+_kernel_alminib_table
+                    0x0               kernel_cfg.o
+_kernel_flginib_table
+                    0x0               kernel_cfg.o
+_kernel_tmevt_heap  0x10              kernel_cfg.o
+_kernel_dspflg      0x4               libkernel.a(task.o)
+_kernel_ready_primap
+                    0x2               libkernel.a(task.o)
+_kernel_almcb_table
+                    0x0               kernel_cfg.o
+_kernel_disdsp      0x4               libkernel.a(task.o)
+_kernel_current_time
+                    0x4               libkernel.a(time_event.o)
+_kernel_cycinib_table
+                    0x0               kernel_cfg.o
+pit_count           0x4               target_pit.o
+_kernel_p_runtsk    0x4               libkernel.a(task.o)
+_kernel_excinib_table
+                    0x0               kernel_cfg.o
+_kernel_mpfcb_table
+                    0x0               kernel_cfg.o
+_kernel_tcb_table   0x40              kernel_cfg.o
+_kernel_ipmflg      0x4               libkernel.a(task.o)
+_kernel_saved_iipm  0x4               libkernel.a(prc_config.o)
+swgp_table          0x20              switch.o
+_kernel_next_time   0x4               libkernel.a(time_event.o)
+_kernel_mpfinib_table
+                    0x0               kernel_cfg.o
+_kernel_lock_flag   0x4               libkernel.a(prc_config.o)
+siopcb_table        0x28              target_serial.o
+_kernel_flgcb_table
+                    0x0               kernel_cfg.o
+_kernel_mbxcb_table
+                    0x0               kernel_cfg.o
+_kernel_last_index  0x4               libkernel.a(time_event.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x00000000         0x00080000         xr
+RAM              0x1fff0000         0x00020000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD start.o
+LOAD test_sd.o
+LOAD target_serial.o
+LOAD target_gpio.o
+LOAD target_lptmr.o
+LOAD target_spi.o
+LOAD target_pwm.o
+LOAD target_pit.o
+LOAD target_adc.o
+LOAD target_decoder.o
+LOAD light.o
+LOAD speaker.o
+LOAD switch.o
+LOAD steer.o
+LOAD motor.o
+LOAD decoder.o
+LOAD mmc.o
+LOAD sd_rw.o
+LOAD sd_send.o
+LOAD sd.o
+LOAD ff.o
+LOAD laser.o
+LOAD Follow.o
+LOAD FarSignalProcess.o
+LOAD steer_control.o
+LOAD GetFarSignalValue.o
+LOAD GetNearSignalValue.o
+LOAD GetSignalValues.o
+LOAD banner.o
+LOAD syslog.o
+LOAD serial.o
+LOAD logtask.o
+LOAD log_output.o
+LOAD vasyslog.o
+LOAD t_perror.o
+LOAD strerror.o
+LOAD kernel_cfg.o
+LOAD libkernel.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a
+START GROUP
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/libgcc.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libm.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3.a
+LOAD /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3unhosted.a
+END GROUP
+                0x00000000                PROVIDE (hardware_init_hook, 0x0)
+                0x00000000                PROVIDE (software_init_hook, 0x0)
+                0x00000000                PROVIDE (software_term_hook, 0x0)
+                0x20004b90                PROVIDE (__cs3_heap_start, _end)
+
+.text           0x1fff0000    0x12518
+                0x1fff0000                __text = .
+ *(.vector)
+ .vector        0x1fff0000      0x400 kernel_cfg.o
+                0x1fff0000                _kernel_vector_table
+ *(.text*)
+ .text          0x1fff0400       0x78 start.o
+                0x1fff0400                _start
+ .text          0x1fff0478       0x70 test_sd.o
+                0x1fff0478                task1
+                0x1fff04d4                task2
+ .text          0x1fff04e8      0x5f0 target_serial.o
+                0x1fff05a8                target_usart_init
+                0x1fff07d0                target_usart_term
+                0x1fff0824                sio_initialize
+                0x1fff0874                sio_opn_por
+                0x1fff0900                sio_cls_por
+                0x1fff0948                sio_isr
+                0x1fff097c                sio_snd_chr
+                0x1fff09b4                sio_rcv_chr
+                0x1fff09e0                sio_ena_cbr
+                0x1fff0a08                sio_dis_cbr
+                0x1fff0a30                sio_pol_snd_chr
+ .text          0x1fff0ad8      0x268 target_gpio.o
+                0x1fff0ad8                gpio_get_port_addr
+                0x1fff0b58                gpio_get_pt_addr
+                0x1fff0bd8                gpio_init
+                0x1fff0c84                gpio_get
+                0x1fff0cbc                gpio_set
+                0x1fff0d10                gpio_reverse
+ .text          0x1fff0d40      0x220 target_lptmr.o
+                0x1fff0d40                lptmr_timer_init
+                0x1fff0e10                lptmr_pulse_capture_init
+                0x1fff0f20                lptmr_enable
+                0x1fff0f40                lptmr_disable
+ .text          0x1fff0f60      0x438 target_spi.o
+                0x1fff0f60                spi_init
+                0x1fff10a0                spi_init_fast
+                0x1fff11e0                spi_snd
+                0x1fff1278                spi_rcv
+                0x1fff12dc                spi_enable_rcv_int
+                0x1fff1310                spi_disable_rcv_int
+                0x1fff1344                spi_get_base_address
+ .text          0x1fff1398      0x4c4 target_pwm.o
+                0x1fff1664                ftm_pwm_init
+                0x1fff17e4                ftm_pwm_output
+ .text          0x1fff185c      0x198 target_pit.o
+                0x1fff185c                pit_init
+                0x1fff192c                pit_enable
+                0x1fff1970                pit_disable
+                0x1fff19b4                pit0_timer_handler
+ .text          0x1fff19f4      0x21c target_adc.o
+                0x1fff19f4                adc_init
+                0x1fff1a74                ad_once
+                0x1fff1af4                adc_convertstart
+                0x1fff1b90                adc_convertstop
+ .text          0x1fff1c10      0x238 target_decoder.o
+                0x1fff1c10                ftm_decoder_init
+ .text          0x1fff1e48      0x544 light.o
+                0x1fff1e48                light_init
+                0x1fff1f88                light_open
+                0x1fff2024                light_open_some
+                0x1fff2104                light_close_some
+                0x1fff21e4                light_close
+                0x1fff2280                light_read
+                0x1fff22e0                light_change
+ .text          0x1fff238c      0x290 speaker.o
+                0x1fff238c                speaker_init
+                0x1fff2484                speaker_open
+                0x1fff2520                speaker_close
+                0x1fff25bc                speaker_read
+ .text          0x1fff261c      0x30c switch.o
+                0x1fff261c                switch_init
+                0x1fff27ac                switch_read
+                0x1fff2828                switch_read_8bit
+ .text          0x1fff2928      0x3b0 steer.o
+                0x1fff2928                steer_init
+                0x1fff2a98                steer_output_angle
+                0x1fff2be0                steer_output_value
+ .text          0x1fff2cd8      0x240 motor.o
+                0x1fff2cd8                motor_init
+                0x1fff2df8                motor_output
+                0x1fff2ed8                motor_output_dir_fw
+                0x1fff2ef8                motor_output_dir_bw
+ .text          0x1fff2f18      0x1d8 decoder.o
+                0x1fff2f18                decoder_init
+                0x1fff2fe4                decoder_read
+                0x1fff3058                decoder_clear
+                0x1fff3080                calculateCurSpeed
+ .text          0x1fff30f0      0xbe8 mmc.o
+                0x1fff3460                disk_initialize
+                0x1fff3650                disk_status
+                0x1fff367c                disk_read
+                0x1fff3760                disk_write
+                0x1fff387c                disk_ioctl
+                0x1fff3c60                disk_timerproc
+ .text          0x1fff3cd8      0x3e8 sd_rw.o
+                0x1fff3cd8                ReadWrite_Byte
+                0x1fff3d14                SD_SPI_SendCommand
+                0x1fff3de8                SD_SPI_SendCommand_NoDeassert
+                0x1fff3e9c                SD_ReadSingleBlock
+                0x1fff3f88                SD_WriteSignleBlock
+ .text          0x1fff40c0      0x338 sd_send.o
+                0x1fff40c0                SD_SendData
+                0x1fff41b0                Convert
+                0x1fff4304                ConvertRoad
+                0x1fff4398                Strcpy
+ .text          0x1fff43f8       0x9c sd.o
+                0x1fff43f8                sd_create_file
+                0x1fff442c                sd_init
+                0x1fff444c                sd_close_file
+                0x1fff446c                sd_write_externmsg
+ .text          0x1fff4494     0x4410 ff.o
+                0x1fff4494                get_fattime
+                0x1fff4888                clust2sect
+                0x1fff48cc                get_fat
+                0x1fff4a70                put_fat
+                0x1fff6098                f_mount
+                0x1fff60f4                f_open
+                0x1fff6450                f_read
+                0x1fff66e0                f_write
+                0x1fff6a34                f_sync
+                0x1fff6bb0                f_close
+                0x1fff6bdc                f_chdrive
+                0x1fff6c0c                f_chdir
+                0x1fff6ce8                f_getcwd
+                0x1fff6f94                f_lseek
+                0x1fff71f0                f_opendir
+                0x1fff72d8                f_readdir
+                0x1fff7374                f_stat
+                0x1fff73ec                f_getfree
+                0x1fff75c8                f_truncate
+                0x1fff76f0                f_unlink
+                0x1fff78c4                f_mkdir
+                0x1fff7c48                f_chmod
+                0x1fff7d2c                f_utime
+                0x1fff7e18                f_rename
+                0x1fff8094                f_forward
+                0x1fff82a4                f_gets
+                0x1fff8334                f_putc
+                0x1fff8388                f_puts
+                0x1fff83d8                f_printf
+ .text          0x1fff88a4      0xa48 laser.o
+                0x1fff88a4                laser_address_init
+                0x1fff8910                up_laser_control_init
+                0x1fff8968                down_laser_control_init
+                0x1fff89b8                up_laser_receive_init
+                0x1fff8a38                down_laser_receive_init
+                0x1fff8a9c                laser_send_init
+                0x1fff8df8                laser_address_open
+                0x1fff8e94                laser_address_open_some
+                0x1fff8f34                up_laser_control_open
+                0x1fff8fd0                down_laser_control_open
+                0x1fff906c                laser_address_close
+                0x1fff9108                up_laser_control_close
+                0x1fff91a4                up_laser_control_close_all
+                0x1fff91c0                down_laser_control_close
+                0x1fff925c                up_laser_receive
+                0x1fff92a4                down_laser_receive
+ .text          0x1fff92ec     0x11b4 Follow.o
+                0x1fff92ec                setFollowAngle
+                0x1fff9420                bigFollowAngleCompensation
+                0x1fff9530                followAngle_crossline
+                0x1fff992c                crosslineCompensation
+                0x1fff9ad8                followAngle_out
+                0x1fff9b70                getFarSignalOffset
+                0x1fff9bf4                followAngle_PID
+                0x1fff9eec                singleFollow
+                0x1fff9f38                judgeSingleToDoubleFollow
+                0x1fffa0d8                judgeDoubleToSingleFollow
+                0x1fffa1c0                setSingleFollowIncrement
+                0x1fffa2d4                getBlackNumForSingleFollow
+                0x1fffa45c                outputFollowPWM
+ .text          0x1fffa4a0      0xeb4 FarSignalProcess.o
+                0x1fffa4a0                farSignalProcess
+                0x1fffa59c                farSignalFilter
+                0x1fffa5bc                getHistorySignal
+                0x1fffa668                laser2_5GapFilter
+                0x1fffa928                alterManyTimesFilter
+                0x1fffaac4                filterByHistory
+                0x1fffac88                judgeOutType
+                0x1fffb0a0                judgeCrossline
+                0x1fffb1f4                findLeftBlackNum
+                0x1fffb25c                findRightBlackNum
+                0x1fffb2c4                getLeftValue
+                0x1fffb310                getRightValue
+ .text          0x1fffb354      0x958 steer_control.o
+                0x1fffb354                setSteerAngle
+                0x1fffb464                SteerOnCurve
+                0x1fffb634                steerOnStraight
+                0x1fffb894                judgeCarStateOnCurve
+                0x1fffb954                judgeLongStraight
+                0x1fffba78                judgeStraightToCurve
+                0x1fffbc10                outputSteerPWM
+ .text          0x1fffbcac      0x444 GetFarSignalValue.o
+                0x1fffbcac                initFarSignalSend
+                0x1fffbcc8                FarSignalControlReg
+                0x1fffbd1c                SignalAddressReg
+                0x1fffbdac                closeFarSignal
+                0x1fffbdc0                leftLaserSend
+                0x1fffbddc                rightLaserSend
+                0x1fffbdf8                FarSignalSend
+                0x1fffbf88                initFarSignalReceive
+                0x1fffbf9c                getLeftLaserValue
+                0x1fffc048                getRightLaserValue
+ .text          0x1fffc0f0       0xec GetNearSignalValue.o
+                0x1fffc0f0                initNearSignalSend
+                0x1fffc0fc                NearSignalControlReg
+                0x1fffc12c                CloseNearSignal
+                0x1fffc13c                NearSignalSend
+                0x1fffc154                initNearSignalReceive
+                0x1fffc160                GetNearSignalValue
+ .text          0x1fffc1dc      0x248 GetSignalValues.o
+                0x1fffc1dc                getLeftLaserInfo
+                0x1fffc250                getRightLaserInfo
+                0x1fffc2b4                getLaserInfo
+                0x1fffc390                delay_10us
+                0x1fffc3dc                delay_us
+ .text          0x1fffc424       0x6c banner.o
+                0x1fffc45c                print_banner
+ .text          0x1fffc490      0x2b8 syslog.o
+                0x1fffc4d8                syslog_initialize
+                0x1fffc534                syslog_wri_log
+                0x1fffc628                syslog_rea_log
+                0x1fffc6bc                syslog_msk_log
+                0x1fffc6f0                syslog_ref_log
+ .text          0x1fffc748      0xbd0 serial.o
+                0x1fffc7a0                serial_initialize
+                0x1fffc7fc                serial_opn_por
+                0x1fffc938                serial_cls_por
+                0x1fffcb98                serial_wri_dat
+                0x1fffcd74                serial_rea_dat
+                0x1fffcef8                serial_ctl_por
+                0x1fffcf74                serial_ref_por
+                0x1fffcff8                sio_irdy_snd
+                0x1fffd0c4                sio_irdy_rcv
+                0x1fffd27c                serial_get_chr
+ .text          0x1fffd318      0x250 logtask.o
+                0x1fffd374                logtask_flush
+                0x1fffd420                logtask_main
+                0x1fffd4cc                logtask_terminate
+ .text          0x1fffd568      0x3e8 log_output.o
+                0x1fffd64c                syslog_printf
+                0x1fffd8d0                syslog_print
+                0x1fffd920                syslog_lostmsg
+ .text          0x1fffd950      0x1fc vasyslog.o
+                0x1fffd950                syslog
+ .text          0x1fffdb4c       0x84 t_perror.o
+                0x1fffdb8c                t_perror
+ .text          0x1fffdbd0      0x1d8 strerror.o
+                0x1fffdbd0                itron_strerror
+ .text          0x1fffdda8       0xc0 kernel_cfg.o
+                0x1fffddd0                _kernel_inthdr_69
+                0x1fffddf0                _kernel_initialize_object
+                0x1fffde08                _kernel_call_inirtn
+                0x1fffde58                _kernel_call_terrtn
+ .text          0x1fffde68      0x280 libkernel.a(prc_support.o)
+                0x1fffde68                dispatch
+                0x1fffde94                _kernel_exc_entry
+                0x1fffdf20                _kernel_int_entry
+                0x1fffdfde                _kernel_svc_handler
+                0x1fffdffc                start_dispatch
+                0x1fffe018                exit_and_dispatch
+                0x1fffe070                call_exit_kernel
+                0x1fffe080                _kernel_start_r
+                0x1fffe098                sil_dly_nse
+ .text          0x1fffe0e8      0x38c libkernel.a(target_config.o)
+                0x1fffe0e8                target_initialize
+                0x1fffe128                target_exit
+                0x1fffe134                target_fput_log
+                0x1fffe164                hardware_init_hook
+ .text          0x1fffe474      0x114 libkernel.a(prc_timer.o)
+                0x1fffe4d4                target_timer_initialize
+                0x1fffe538                target_timer_terminate
+                0x1fffe558                target_timer_handler
+ .text          0x1fffe588      0x218 libkernel.a(target_interrupt.o)
+                0x1fffe588                exc_enable
+                0x1fffe6b0                exc_disable
+ .text          0x1fffe7a0      0x504 libkernel.a(prc_config.o)
+                0x1fffe95c                set_exc_int_priority
+                0x1fffea0c                enable_exc
+                0x1fffea7c                disable_exc
+                0x1fffeaec                _kernel_prc_initialize
+                0x1fffeb30                _kernel_prc_terminate
+                0x1fffeb3c                _kernel_x_config_int
+                0x1fffebd4                _kernel_default_exc_handler
+                0x1fffec3c                _kernel_default_int_handler
+ .text          0x1fffeca4       0x78 libkernel.a(startup.o)
+                0x1fffecd0                sta_ker
+                0x1fffecf4                ext_ker
+                0x1fffed10                _kernel_exit_kernel
+ .text          0x1fffed1c      0x8e8 libkernel.a(task.o)
+                0x1ffff000                _kernel_initialize_task
+                0x1ffff230                _kernel_search_schedtsk
+                0x1ffff254                _kernel_make_runnable
+                0x1ffff2b8                _kernel_make_non_runnable
+                0x1ffff34c                _kernel_make_dormant
+                0x1ffff390                _kernel_make_active
+                0x1ffff3d0                _kernel_change_priority
+                0x1ffff4bc                _kernel_rotate_ready_queue
+                0x1ffff52c                _kernel_call_texrtn
+ .text          0x1ffff604      0x5c4 libkernel.a(time_event.o)
+                0x1ffff724                _kernel_initialize_tmevt
+                0x1ffff764                _kernel_tmevt_up
+                0x1ffff7f4                _kernel_tmevt_down
+                0x1ffff8c4                _kernel_tmevtb_insert
+                0x1ffff920                _kernel_tmevtb_delete
+                0x1ffffa9c                _kernel_tmevt_lefttim
+                0x1ffffaf0                _kernel_signal_time
+ .text          0x1ffffbc8      0x764 libkernel.a(task_manage.o)
+                0x1ffffd98                act_tsk
+                0x1ffffe60                iact_tsk
+                0x1fffff18                can_act
+                0x1fffffb8                ext_tsk
+                0x20000068                ter_tsk
+                0x2000015c                chg_pri
+                0x20000238                get_pri
+                0x200002dc                get_inf
+ .text          0x2000032c      0x8c8 libkernel.a(task_sync.o)
+                0x200004dc                slp_tsk
+                0x20000560                tslp_tsk
+                0x20000610                wup_tsk
+                0x200006ec                iwup_tsk
+                0x200007b8                can_wup
+                0x20000868                rel_wai
+                0x200008fc                irel_wai
+                0x20000998                sus_tsk
+                0x20000a9c                rsm_tsk
+                0x20000b5c                dly_tsk
+ .text          0x20000bf4      0x760 libkernel.a(semaphore.o)
+                0x20000e1c                _kernel_initialize_semaphore
+                0x20000e88                sig_sem
+                0x20000f4c                isig_sem
+                0x20001018                wai_sem
+                0x200010d0                pol_sem
+                0x2000115c                twai_sem
+                0x2000123c                ini_sem
+                0x200012cc                ref_sem
+ .text          0x20001354      0x51c libkernel.a(sys_manage.o)
+                0x20001438                rot_rdq
+                0x200014bc                irot_rdq
+                0x2000152c                get_tid
+                0x20001588                iget_tid
+                0x200015f4                loc_cpu
+                0x2000162c                iloc_cpu
+                0x20001664                unl_cpu
+                0x2000169c                iunl_cpu
+                0x200016d4                dis_dsp
+                0x20001728                ena_dsp
+                0x200017a0                sns_ctx
+                0x200017c4                sns_loc
+                0x200017e8                sns_dsp
+                0x20001808                sns_dpn
+                0x20001848                sns_ker
+ .text          0x20001870      0x588 libkernel.a(interrupt.o)
+                0x20001b74                _kernel_initialize_interrupt
+                0x20001c04                dis_int
+                0x20001c74                ena_int
+                0x20001ce4                chg_ipm
+                0x20001db0                get_ipm
+ .text          0x20001df8      0x15c libkernel.a(exception.o)
+                0x20001e90                _kernel_initialize_exception
+                0x20001edc                xsns_dpn
+                0x20001f14                xsns_xpn
+ .text          0x20001f54      0x5c4 libkernel.a(wait.o)
+                0x200022d0                _kernel_make_wait_tmout
+                0x20002350                _kernel_wait_complete
+                0x2000237c                _kernel_wait_tmout
+                0x200023bc                _kernel_wait_tmout_ok
+                0x200023f8                _kernel_wait_release
+                0x2000246c                _kernel_wobj_make_wait
+                0x20002494                _kernel_wobj_make_wait_tmout
+                0x200024c4                _kernel_init_wait_queue
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+                0x20002518                _etext = .
+                0x20002518                PROVIDE (etext, .)
+
+.vfp11_veneer   0x20002518        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x20002518        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.rodata         0x20002518      0xc74
+ *(.rodata*)
+ .rodata        0x20002518       0x10 target_serial.o
+                0x20002518                siopinib_table
+ .rodata        0x20002528        0xc sd_send.o
+                0x20002528                CRLF_DATA
+                0x20002530                CRLF_COMPRESS
+ .rodata        0x20002534       0x90 ff.o
+ .rodata        0x200025c4       0x50 Follow.o
+                0x200025c4                SignalLeftOffsetWeight
+                0x200025d8                SignalRightOffsetWeight
+                0x200025ec                SignalSingleLeftOffsetWeight
+                0x20002600                SignalSingleRightOffsetWeight
+ .rodata        0x20002614      0x164 banner.o
+ .rodata        0x20002778       0x18 serial.o
+ .rodata        0x20002790       0x48 logtask.o
+ .rodata        0x200027d8       0x6c log_output.o
+ .rodata        0x20002844       0x30 t_perror.o
+ .rodata        0x20002874       0xc8 strerror.o
+ .rodata        0x2000293c      0x50c kernel_cfg.o
+                0x2000293c                _kernel_tmax_tskid
+                0x20002940                _kernel_tinib_table
+                0x20002980                _kernel_torder_table
+                0x20002988                _kernel_tmax_semid
+                0x2000298c                _kernel_seminib_table
+                0x200029a4                _kernel_tmax_flgid
+                0x200029a8                _kernel_tmax_dtqid
+                0x200029ac                _kernel_tmax_pdqid
+                0x200029b0                _kernel_tmax_mbxid
+                0x200029b4                _kernel_tmax_mpfid
+                0x200029b8                _kernel_tmax_cycid
+                0x200029bc                _kernel_tmax_almid
+                0x200029c0                _kernel_tnum_inhno
+                0x200029c4                _kernel_inhinib_table
+                0x200029dc                _kernel_tnum_intno
+                0x200029e0                _kernel_intinib_table
+                0x200029f8                _kernel_tnum_excno
+                0x200029fc                _kernel_istksz
+                0x20002a00                _kernel_istk
+                0x20002a04                _kernel_istkpt
+                0x20002a08                _kernel_exc_tbl
+                0x20002e08                _kernel_bitpat_cfgint
+ .rodata        0x20002e48      0x108 libkernel.a(prc_config.o)
+ .rodata        0x20002f50       0x8c libkernel.a(task.o)
+ .rodata        0x20002fdc       0x40 libkernel.a(time_event.o)
+ .rodata        0x2000301c       0x34 libkernel.a(task_sync.o)
+ .rodata        0x20003050       0x54 libkernel.a(semaphore.o)
+ .rodata        0x200030a4       0xe8 libkernel.a(wait.o)
+
+.flash_protect  0x2000318c       0x10
+ .flash_protect
+                0x2000318c       0x10 start.o
+                0x2000318c                init_vector
+                0x2000319c                . = ALIGN (0x4)
+                0x2000319c                __idata_start = .
+
+.data           0x2000319c       0x28
+                0x2000319c                __data_start = .
+ *(vtable)
+ *(.data*)
+ .data          0x2000319c        0x0 start.o
+ .data          0x2000319c        0x0 test_sd.o
+ .data          0x2000319c        0x0 target_serial.o
+ .data          0x2000319c        0x0 target_gpio.o
+ .data          0x2000319c        0x0 target_lptmr.o
+ .data          0x2000319c        0x0 target_spi.o
+ .data          0x2000319c        0x0 target_pwm.o
+ .data          0x2000319c        0x0 target_pit.o
+ .data          0x2000319c        0x0 target_adc.o
+ .data          0x2000319c        0x0 target_decoder.o
+ .data          0x2000319c        0x0 light.o
+ .data          0x2000319c        0x0 speaker.o
+ .data          0x2000319c        0x0 switch.o
+ .data          0x2000319c        0x0 steer.o
+ .data          0x2000319c        0x0 motor.o
+ .data          0x2000319c        0x0 decoder.o
+ .data          0x2000319c        0x1 mmc.o
+ .data          0x2000319d        0x0 sd_rw.o
+ *fill*         0x2000319d        0x3 00
+ .data          0x200031a0        0x8 sd_send.o
+                0x200031a0                gl_sector
+ .data          0x200031a8        0x0 sd.o
+ .data          0x200031a8        0x0 ff.o
+ .data          0x200031a8        0x0 laser.o
+ .data          0x200031a8        0x2 Follow.o
+ .data          0x200031aa        0xc FarSignalProcess.o
+                0x200031aa                gl_leftBlackNum
+                0x200031ab                gl_rightBlackNum
+                0x200031ac                gl_leftNumOrig
+                0x200031ad                gl_rightNumOrig
+ *fill*         0x200031b6        0x2 00
+ .data          0x200031b8        0xc steer_control.o
+ .data          0x200031c4        0x0 GetFarSignalValue.o
+ .data          0x200031c4        0x0 GetNearSignalValue.o
+ .data          0x200031c4        0x0 GetSignalValues.o
+ .data          0x200031c4        0x0 banner.o
+ .data          0x200031c4        0x0 syslog.o
+ .data          0x200031c4        0x0 serial.o
+ .data          0x200031c4        0x0 logtask.o
+ .data          0x200031c4        0x0 log_output.o
+ .data          0x200031c4        0x0 vasyslog.o
+ .data          0x200031c4        0x0 t_perror.o
+ .data          0x200031c4        0x0 strerror.o
+ .data          0x200031c4        0x0 kernel_cfg.o
+ .data          0x200031c4        0x0 libkernel.a(prc_support.o)
+ .data          0x200031c4        0x0 libkernel.a(target_config.o)
+ .data          0x200031c4        0x0 libkernel.a(prc_timer.o)
+ .data          0x200031c4        0x0 libkernel.a(target_interrupt.o)
+ .data          0x200031c4        0x0 libkernel.a(prc_config.o)
+ .data          0x200031c4        0x0 libkernel.a(startup.o)
+ .data          0x200031c4        0x0 libkernel.a(task.o)
+ .data          0x200031c4        0x0 libkernel.a(time_event.o)
+ .data          0x200031c4        0x0 libkernel.a(task_manage.o)
+ .data          0x200031c4        0x0 libkernel.a(task_sync.o)
+ .data          0x200031c4        0x0 libkernel.a(semaphore.o)
+ .data          0x200031c4        0x0 libkernel.a(sys_manage.o)
+ .data          0x200031c4        0x0 libkernel.a(interrupt.o)
+ .data          0x200031c4        0x0 libkernel.a(exception.o)
+ .data          0x200031c4        0x0 libkernel.a(wait.o)
+                0x200031c4                __idata_end = (__idata_start + SIZEOF (.data))
+                0x200031c4                _edata = .
+                0x200031c4                PROVIDE (edata, .)
+                0x200031c4                . = ALIGN (0x4)
+
+.bss            0x200031c8     0x19c8
+                0x200031c8                __bss_start = .
+ *(.bss*)
+ .bss           0x200031c8        0x0 start.o
+ .bss           0x200031c8        0x0 test_sd.o
+ .bss           0x200031c8        0x0 target_serial.o
+ .bss           0x200031c8        0x0 target_gpio.o
+ .bss           0x200031c8        0x0 target_lptmr.o
+ .bss           0x200031c8        0x0 target_spi.o
+ .bss           0x200031c8        0x0 target_pwm.o
+ .bss           0x200031c8        0x0 target_pit.o
+ .bss           0x200031c8        0x0 target_adc.o
+ .bss           0x200031c8        0x0 target_decoder.o
+ .bss           0x200031c8       0x60 light.o
+ .bss           0x20003228        0xc speaker.o
+ .bss           0x20003234       0x50 switch.o
+ .bss           0x20003284       0x40 steer.o
+ .bss           0x200032c4       0x1c motor.o
+ .bss           0x200032e0       0x18 decoder.o
+                0x200032ec                gl_curSpeed
+                0x200032f0                gl_encoderTotal
+                0x200032f4                gl_distanceTotal
+ .bss           0x200032f8       0x10 mmc.o
+ .bss           0x20003308        0x0 sd_rw.o
+ .bss           0x20003308      0x204 sd_send.o
+ .bss           0x2000350c        0x0 sd.o
+ .bss           0x2000350c        0x8 ff.o
+ .bss           0x20003514       0xc0 laser.o
+ .bss           0x200035d4       0x44 Follow.o
+                0x200035d4                gl_DataSendInt
+                0x200035fe                gl_curveModel
+                0x200035ff                gl_followModel
+                0x20003602                gl_singleSignalOffset
+                0x20003604                gl_signalOffset
+                0x20003606                gl_compensation
+                0x20003608                gl_FollowAngle
+ .bss           0x20003618       0xd4 FarSignalProcess.o
+                0x20003618                gl_leftValue
+                0x2000361c                gl_rightValue
+                0x20003620                gl_leftValueOrig
+                0x20003624                gl_rightValueOrig
+                0x20003628                gl_outType
+                0x2000362c                gl_crossline
+                0x20003630                gl_straightToCurve
+                0x20003634                gl_leftNumHistory
+                0x2000365c                gl_rightNumHistory
+                0x20003684                gl_leftOrigNumHistory
+                0x200036ac                gl_rightOrigNumHistory
+                0x200036d4                gl_ramp
+ .bss           0x200036ec       0x40 steer_control.o
+                0x200036ec                gl_carStateOnCurve
+                0x200036f0                gl_longStraight
+                0x200036f4                gl_maybeLongStraightToCurve
+                0x200036fc                gl_steerStraightToCurveAddTime
+                0x20003706                gl_SteerAngle
+ .bss           0x2000372c       0x50 GetFarSignalValue.o
+                0x2000372c                gl_leftLaserBit
+                0x20003754                gl_rightLaserBit
+ .bss           0x2000377c        0xc GetNearSignalValue.o
+                0x2000377c                gl_NearSignalBit
+                0x20003784                gl_NearSignalValue
+ .bss           0x20003788        0x8 GetSignalValues.o
+                0x20003788                gl_leftLaserValueTemp
+                0x2000378c                gl_rightLaserValueTemp
+ .bss           0x20003790        0x0 banner.o
+ .bss           0x20003790      0x418 syslog.o
+ .bss           0x20003ba8      0x238 serial.o
+ .bss           0x20003de0        0x4 logtask.o
+ .bss           0x20003de4        0x0 log_output.o
+ .bss           0x20003de4        0x0 vasyslog.o
+ .bss           0x20003de4        0x0 t_perror.o
+ .bss           0x20003de4        0x0 strerror.o
+ *fill*         0x20003de4        0x4 00
+ .bss           0x20003de8      0xa00 kernel_cfg.o
+ .bss           0x200047e8        0x0 libkernel.a(prc_support.o)
+ .bss           0x200047e8        0x0 libkernel.a(target_config.o)
+ .bss           0x200047e8        0x0 libkernel.a(prc_timer.o)
+ .bss           0x200047e8        0x0 libkernel.a(target_interrupt.o)
+ .bss           0x200047e8        0x0 libkernel.a(prc_config.o)
+ .bss           0x200047e8        0x4 libkernel.a(startup.o)
+                0x200047e8                _kernel_kerflg
+ .bss           0x200047ec        0x0 libkernel.a(task.o)
+ .bss           0x200047ec        0x0 libkernel.a(time_event.o)
+ .bss           0x200047ec        0x0 libkernel.a(task_manage.o)
+ .bss           0x200047ec        0x0 libkernel.a(task_sync.o)
+ .bss           0x200047ec        0x0 libkernel.a(semaphore.o)
+ .bss           0x200047ec        0x0 libkernel.a(sys_manage.o)
+ .bss           0x200047ec        0x0 libkernel.a(interrupt.o)
+ .bss           0x200047ec        0x0 libkernel.a(exception.o)
+ .bss           0x200047ec        0x0 libkernel.a(wait.o)
+ *(COMMON)
+ COMMON         0x200047ec       0x28 target_serial.o
+                0x200047ec                siopcb_table
+ COMMON         0x20004814        0x4 target_pit.o
+                0x20004814                pit_count
+ COMMON         0x20004818       0x20 switch.o
+                0x20004818                swgp_table
+ COMMON         0x20004838      0x234 sd.o
+                0x20004838                Fatfs
+ COMMON         0x20004a6c       0x70 kernel_cfg.o
+                0x20004a6c                _kernel_cyccb_table
+                0x20004a6c                _kernel_pdqinib_table
+                0x20004a6c                _kernel_pdqcb_table
+                0x20004a6c                _kernel_dtqinib_table
+                0x20004a6c                _kernel_dtqcb_table
+                0x20004a6c                _kernel_semcb_table
+                0x20004a8c                _kernel_mbxinib_table
+                0x20004a8c                _kernel_alminib_table
+                0x20004a8c                _kernel_flginib_table
+                0x20004a8c                _kernel_tmevt_heap
+                0x20004a9c                _kernel_almcb_table
+                0x20004a9c                _kernel_cycinib_table
+                0x20004a9c                _kernel_excinib_table
+                0x20004a9c                _kernel_mpfcb_table
+                0x20004a9c                _kernel_tcb_table
+                0x20004adc                _kernel_mpfinib_table
+                0x20004adc                _kernel_flgcb_table
+                0x20004adc                _kernel_mbxcb_table
+ COMMON         0x20004adc        0x8 libkernel.a(prc_config.o)
+                0x20004adc                _kernel_saved_iipm
+                0x20004ae0                _kernel_lock_flag
+ COMMON         0x20004ae4       0x9c libkernel.a(task.o)
+                0x20004ae4                _kernel_p_schedtsk
+                0x20004ae8                _kernel_reqflg
+                0x20004aec                _kernel_ready_queue
+                0x20004b6c                _kernel_dspflg
+                0x20004b70                _kernel_ready_primap
+                0x20004b74                _kernel_disdsp
+                0x20004b78                _kernel_p_runtsk
+                0x20004b7c                _kernel_ipmflg
+ COMMON         0x20004b80       0x10 libkernel.a(time_event.o)
+                0x20004b80                _kernel_min_time
+                0x20004b84                _kernel_current_time
+                0x20004b88                _kernel_next_time
+                0x20004b8c                _kernel_last_index
+                0x20004b90                . = ALIGN (0x4)
+                0x20004b90                . = ALIGN (0x4)
+                0x20004b90                _end = .
+                0x20004b90                __bss_end = .
+                0x20004b90                PROVIDE (end, .)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x21 start.o
+ .ARM.attributes
+                0x00000021       0x31 test_sd.o
+ .ARM.attributes
+                0x00000052       0x31 target_serial.o
+ .ARM.attributes
+                0x00000083       0x31 target_gpio.o
+ .ARM.attributes
+                0x000000b4       0x31 target_lptmr.o
+ .ARM.attributes
+                0x000000e5       0x31 target_spi.o
+ .ARM.attributes
+                0x00000116       0x31 target_pwm.o
+ .ARM.attributes
+                0x00000147       0x31 target_pit.o
+ .ARM.attributes
+                0x00000178       0x31 target_adc.o
+ .ARM.attributes
+                0x000001a9       0x31 target_decoder.o
+ .ARM.attributes
+                0x000001da       0x31 light.o
+ .ARM.attributes
+                0x0000020b       0x31 speaker.o
+ .ARM.attributes
+                0x0000023c       0x31 switch.o
+ .ARM.attributes
+                0x0000026d       0x31 steer.o
+ .ARM.attributes
+                0x0000029e       0x31 motor.o
+ .ARM.attributes
+                0x000002cf       0x31 decoder.o
+ .ARM.attributes
+                0x00000300       0x31 mmc.o
+ .ARM.attributes
+                0x00000331       0x31 sd_rw.o
+ .ARM.attributes
+                0x00000362       0x31 sd_send.o
+ .ARM.attributes
+                0x00000393       0x31 sd.o
+ .ARM.attributes
+                0x000003c4       0x31 ff.o
+ .ARM.attributes
+                0x000003f5       0x31 laser.o
+ .ARM.attributes
+                0x00000426       0x31 Follow.o
+ .ARM.attributes
+                0x00000457       0x31 FarSignalProcess.o
+ .ARM.attributes
+                0x00000488       0x31 steer_control.o
+ .ARM.attributes
+                0x000004b9       0x31 GetFarSignalValue.o
+ .ARM.attributes
+                0x000004ea       0x31 GetNearSignalValue.o
+ .ARM.attributes
+                0x0000051b       0x31 GetSignalValues.o
+ .ARM.attributes
+                0x0000054c       0x31 banner.o
+ .ARM.attributes
+                0x0000057d       0x31 syslog.o
+ .ARM.attributes
+                0x000005ae       0x31 serial.o
+ .ARM.attributes
+                0x000005df       0x31 logtask.o
+ .ARM.attributes
+                0x00000610       0x31 log_output.o
+ .ARM.attributes
+                0x00000641       0x31 vasyslog.o
+ .ARM.attributes
+                0x00000672       0x31 t_perror.o
+ .ARM.attributes
+                0x000006a3       0x31 strerror.o
+ .ARM.attributes
+                0x000006d4       0x31 kernel_cfg.o
+ .ARM.attributes
+                0x00000705       0x21 libkernel.a(prc_support.o)
+ .ARM.attributes
+                0x00000726       0x31 libkernel.a(target_config.o)
+ .ARM.attributes
+                0x00000757       0x31 libkernel.a(prc_timer.o)
+ .ARM.attributes
+                0x00000788       0x31 libkernel.a(target_interrupt.o)
+ .ARM.attributes
+                0x000007b9       0x31 libkernel.a(prc_config.o)
+ .ARM.attributes
+                0x000007ea       0x31 libkernel.a(startup.o)
+ .ARM.attributes
+                0x0000081b       0x31 libkernel.a(task.o)
+ .ARM.attributes
+                0x0000084c       0x31 libkernel.a(time_event.o)
+ .ARM.attributes
+                0x0000087d       0x31 libkernel.a(task_manage.o)
+ .ARM.attributes
+                0x000008ae       0x31 libkernel.a(task_sync.o)
+ .ARM.attributes
+                0x000008df       0x31 libkernel.a(semaphore.o)
+ .ARM.attributes
+                0x00000910       0x31 libkernel.a(sys_manage.o)
+ .ARM.attributes
+                0x00000941       0x31 libkernel.a(interrupt.o)
+ .ARM.attributes
+                0x00000972       0x31 libkernel.a(exception.o)
+ .ARM.attributes
+                0x000009a3       0x31 libkernel.a(wait.o)
+
+.comment        0x00000000       0x2a
+ *(.comment)
+ .comment       0x00000000       0x2a test_sd.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b target_serial.o
+ .comment       0x00000000       0x2b target_gpio.o
+ .comment       0x00000000       0x2b target_lptmr.o
+ .comment       0x00000000       0x2b target_spi.o
+ .comment       0x00000000       0x2b target_pwm.o
+ .comment       0x00000000       0x2b target_pit.o
+ .comment       0x00000000       0x2b target_adc.o
+ .comment       0x00000000       0x2b target_decoder.o
+ .comment       0x00000000       0x2b light.o
+ .comment       0x00000000       0x2b speaker.o
+ .comment       0x00000000       0x2b switch.o
+ .comment       0x00000000       0x2b steer.o
+ .comment       0x00000000       0x2b motor.o
+ .comment       0x00000000       0x2b decoder.o
+ .comment       0x00000000       0x2b mmc.o
+ .comment       0x00000000       0x2b sd_rw.o
+ .comment       0x00000000       0x2b sd_send.o
+ .comment       0x00000000       0x2b sd.o
+ .comment       0x00000000       0x2b ff.o
+ .comment       0x00000000       0x2b laser.o
+ .comment       0x00000000       0x2b Follow.o
+ .comment       0x00000000       0x2b FarSignalProcess.o
+ .comment       0x00000000       0x2b steer_control.o
+ .comment       0x00000000       0x2b GetFarSignalValue.o
+ .comment       0x00000000       0x2b GetNearSignalValue.o
+ .comment       0x00000000       0x2b GetSignalValues.o
+ .comment       0x00000000       0x2b banner.o
+ .comment       0x00000000       0x2b syslog.o
+ .comment       0x00000000       0x2b serial.o
+ .comment       0x00000000       0x2b logtask.o
+ .comment       0x00000000       0x2b log_output.o
+ .comment       0x00000000       0x2b vasyslog.o
+ .comment       0x00000000       0x2b t_perror.o
+ .comment       0x00000000       0x2b strerror.o
+ .comment       0x00000000       0x2b kernel_cfg.o
+ .comment       0x00000000       0x2b libkernel.a(target_config.o)
+ .comment       0x00000000       0x2b libkernel.a(prc_timer.o)
+ .comment       0x00000000       0x2b libkernel.a(target_interrupt.o)
+ .comment       0x00000000       0x2b libkernel.a(prc_config.o)
+ .comment       0x00000000       0x2b libkernel.a(startup.o)
+ .comment       0x00000000       0x2b libkernel.a(task.o)
+ .comment       0x00000000       0x2b libkernel.a(time_event.o)
+ .comment       0x00000000       0x2b libkernel.a(task_manage.o)
+ .comment       0x00000000       0x2b libkernel.a(task_sync.o)
+ .comment       0x00000000       0x2b libkernel.a(semaphore.o)
+ .comment       0x00000000       0x2b libkernel.a(sys_manage.o)
+ .comment       0x00000000       0x2b libkernel.a(interrupt.o)
+ .comment       0x00000000       0x2b libkernel.a(exception.o)
+ .comment       0x00000000       0x2b libkernel.a(wait.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x680
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 start.o
+ .debug_aranges
+                0x00000020       0x20 test_sd.o
+ .debug_aranges
+                0x00000040       0x20 target_serial.o
+ .debug_aranges
+                0x00000060       0x20 target_gpio.o
+ .debug_aranges
+                0x00000080       0x20 target_lptmr.o
+ .debug_aranges
+                0x000000a0       0x20 target_spi.o
+ .debug_aranges
+                0x000000c0       0x20 target_pwm.o
+ .debug_aranges
+                0x000000e0       0x20 target_pit.o
+ .debug_aranges
+                0x00000100       0x20 target_adc.o
+ .debug_aranges
+                0x00000120       0x20 target_decoder.o
+ .debug_aranges
+                0x00000140       0x20 light.o
+ .debug_aranges
+                0x00000160       0x20 speaker.o
+ .debug_aranges
+                0x00000180       0x20 switch.o
+ .debug_aranges
+                0x000001a0       0x20 steer.o
+ .debug_aranges
+                0x000001c0       0x20 motor.o
+ .debug_aranges
+                0x000001e0       0x20 decoder.o
+ .debug_aranges
+                0x00000200       0x20 mmc.o
+ .debug_aranges
+                0x00000220       0x20 sd_rw.o
+ .debug_aranges
+                0x00000240       0x20 sd_send.o
+ .debug_aranges
+                0x00000260       0x20 sd.o
+ .debug_aranges
+                0x00000280       0x20 ff.o
+ .debug_aranges
+                0x000002a0       0x20 laser.o
+ .debug_aranges
+                0x000002c0       0x20 Follow.o
+ .debug_aranges
+                0x000002e0       0x20 FarSignalProcess.o
+ .debug_aranges
+                0x00000300       0x20 steer_control.o
+ .debug_aranges
+                0x00000320       0x20 GetFarSignalValue.o
+ .debug_aranges
+                0x00000340       0x20 GetNearSignalValue.o
+ .debug_aranges
+                0x00000360       0x20 GetSignalValues.o
+ .debug_aranges
+                0x00000380       0x20 banner.o
+ .debug_aranges
+                0x000003a0       0x20 syslog.o
+ .debug_aranges
+                0x000003c0       0x20 serial.o
+ .debug_aranges
+                0x000003e0       0x20 logtask.o
+ .debug_aranges
+                0x00000400       0x20 log_output.o
+ .debug_aranges
+                0x00000420       0x20 vasyslog.o
+ .debug_aranges
+                0x00000440       0x20 t_perror.o
+ .debug_aranges
+                0x00000460       0x20 strerror.o
+ .debug_aranges
+                0x00000480       0x20 kernel_cfg.o
+ .debug_aranges
+                0x000004a0       0x20 libkernel.a(prc_support.o)
+ .debug_aranges
+                0x000004c0       0x20 libkernel.a(target_config.o)
+ .debug_aranges
+                0x000004e0       0x20 libkernel.a(prc_timer.o)
+ .debug_aranges
+                0x00000500       0x20 libkernel.a(target_interrupt.o)
+ .debug_aranges
+                0x00000520       0x20 libkernel.a(prc_config.o)
+ .debug_aranges
+                0x00000540       0x20 libkernel.a(startup.o)
+ .debug_aranges
+                0x00000560       0x20 libkernel.a(task.o)
+ .debug_aranges
+                0x00000580       0x20 libkernel.a(time_event.o)
+ .debug_aranges
+                0x000005a0       0x20 libkernel.a(task_manage.o)
+ .debug_aranges
+                0x000005c0       0x20 libkernel.a(task_sync.o)
+ .debug_aranges
+                0x000005e0       0x20 libkernel.a(semaphore.o)
+ .debug_aranges
+                0x00000600       0x20 libkernel.a(sys_manage.o)
+ .debug_aranges
+                0x00000620       0x20 libkernel.a(interrupt.o)
+ .debug_aranges
+                0x00000640       0x20 libkernel.a(exception.o)
+ .debug_aranges
+                0x00000660       0x20 libkernel.a(wait.o)
+
+.debug_pubnames
+                0x00000000     0x2303
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x26 test_sd.o
+ .debug_pubnames
+                0x00000026       0xf5 target_serial.o
+ .debug_pubnames
+                0x0000011b       0x77 target_gpio.o
+ .debug_pubnames
+                0x00000192       0x67 target_lptmr.o
+ .debug_pubnames
+                0x000001f9       0x91 target_spi.o
+ .debug_pubnames
+                0x0000028a       0x36 target_pwm.o
+ .debug_pubnames
+                0x000002c0       0x63 target_pit.o
+ .debug_pubnames
+                0x00000323       0x54 target_adc.o
+ .debug_pubnames
+                0x00000377       0x27 target_decoder.o
+ .debug_pubnames
+                0x0000039e       0x89 light.o
+ .debug_pubnames
+                0x00000427       0x57 speaker.o
+ .debug_pubnames
+                0x0000047e       0x56 switch.o
+ .debug_pubnames
+                0x000004d4       0x4f steer.o
+ .debug_pubnames
+                0x00000523       0x62 motor.o
+ .debug_pubnames
+                0x00000585       0x95 decoder.o
+ .debug_pubnames
+                0x0000061a       0x75 mmc.o
+ .debug_pubnames
+                0x0000068f       0x8d sd_rw.o
+ .debug_pubnames
+                0x0000071c       0x77 sd_send.o
+ .debug_pubnames
+                0x00000793       0x64 sd.o
+ .debug_pubnames
+                0x000007f7      0x17f ff.o
+ .debug_pubnames
+                0x00000976      0x1ad laser.o
+ .debug_pubnames
+                0x00000b23      0x25b Follow.o
+ .debug_pubnames
+                0x00000d7e      0x248 FarSignalProcess.o
+ .debug_pubnames
+                0x00000fc6      0x124 steer_control.o
+ .debug_pubnames
+                0x000010ea      0x10e GetFarSignalValue.o
+ .debug_pubnames
+                0x000011f8       0xc6 GetNearSignalValue.o
+ .debug_pubnames
+                0x000012be       0x9f GetSignalValues.o
+ .debug_pubnames
+                0x0000135d       0x23 banner.o
+ .debug_pubnames
+                0x00001380       0x74 syslog.o
+ .debug_pubnames
+                0x000013f4       0xcf serial.o
+ .debug_pubnames
+                0x000014c3       0x4b logtask.o
+ .debug_pubnames
+                0x0000150e       0x48 log_output.o
+ .debug_pubnames
+                0x00001556       0x1d vasyslog.o
+ .debug_pubnames
+                0x00001573       0x1f t_perror.o
+ .debug_pubnames
+                0x00001592       0x25 strerror.o
+ .debug_pubnames
+                0x000015b7      0x444 kernel_cfg.o
+ .debug_pubnames
+                0x000019fb       0x63 libkernel.a(target_config.o)
+ .debug_pubnames
+                0x00001a5e       0x62 libkernel.a(prc_timer.o)
+ .debug_pubnames
+                0x00001ac0       0x31 libkernel.a(target_interrupt.o)
+ .debug_pubnames
+                0x00001af1      0x105 libkernel.a(prc_config.o)
+ .debug_pubnames
+                0x00001bf6       0x55 libkernel.a(startup.o)
+ .debug_pubnames
+                0x00001c4b      0x1af libkernel.a(task.o)
+ .debug_pubnames
+                0x00001dfa      0x11c libkernel.a(time_event.o)
+ .debug_pubnames
+                0x00001f16       0x73 libkernel.a(task_manage.o)
+ .debug_pubnames
+                0x00001f89       0x8d libkernel.a(task_sync.o)
+ .debug_pubnames
+                0x00002016       0x89 libkernel.a(semaphore.o)
+ .debug_pubnames
+                0x0000209f       0xca libkernel.a(sys_manage.o)
+ .debug_pubnames
+                0x00002169       0x63 libkernel.a(interrupt.o)
+ .debug_pubnames
+                0x000021cc       0x4d libkernel.a(exception.o)
+ .debug_pubnames
+                0x00002219       0xea libkernel.a(wait.o)
+
+.debug_info     0x00000000    0x14481
+ *(.debug_info)
+ .debug_info    0x00000000       0x7a start.o
+ .debug_info    0x0000007a      0x252 test_sd.o
+ .debug_info    0x000002cc      0xe1a target_serial.o
+ .debug_info    0x000010e6      0x3df target_gpio.o
+ .debug_info    0x000014c5      0x862 target_lptmr.o
+ .debug_info    0x00001d27      0xa2c target_spi.o
+ .debug_info    0x00002753      0x721 target_pwm.o
+ .debug_info    0x00002e74      0x714 target_pit.o
+ .debug_info    0x00003588      0x51b target_adc.o
+ .debug_info    0x00003aa3      0x56c target_decoder.o
+ .debug_info    0x0000400f      0x3a1 light.o
+ .debug_info    0x000043b0      0x2ae speaker.o
+ .debug_info    0x0000465e      0x33e switch.o
+ .debug_info    0x0000499c      0x31d steer.o
+ .debug_info    0x00004cb9      0x2c9 motor.o
+ .debug_info    0x00004f82      0x326 decoder.o
+ .debug_info    0x000052a8      0x59b mmc.o
+ .debug_info    0x00005843      0x251 sd_rw.o
+ .debug_info    0x00005a94      0x339 sd_send.o
+ .debug_info    0x00005dcd      0x3da sd.o
+ .debug_info    0x000061a7     0x1b8a ff.o
+ .debug_info    0x00007d31      0x8a6 laser.o
+ .debug_info    0x000085d7      0x7f1 Follow.o
+ .debug_info    0x00008dc8      0x7db FarSignalProcess.o
+ .debug_info    0x000095a3      0x4e0 steer_control.o
+ .debug_info    0x00009a83      0x370 GetFarSignalValue.o
+ .debug_info    0x00009df3      0x1ca GetNearSignalValue.o
+ .debug_info    0x00009fbd      0x2b2 GetSignalValues.o
+ .debug_info    0x0000a26f      0x1c5 banner.o
+ .debug_info    0x0000a434      0x3b0 syslog.o
+ .debug_info    0x0000a7e4      0x850 serial.o
+ .debug_info    0x0000b034      0x368 logtask.o
+ .debug_info    0x0000b39c      0x364 log_output.o
+ .debug_info    0x0000b700      0x1be vasyslog.o
+ .debug_info    0x0000b8be      0x212 t_perror.o
+ .debug_info    0x0000bad0       0xd8 strerror.o
+ .debug_info    0x0000bba8     0x1491 kernel_cfg.o
+ .debug_info    0x0000d039       0x80 libkernel.a(prc_support.o)
+ .debug_info    0x0000d0b9      0x82d libkernel.a(target_config.o)
+ .debug_info    0x0000d8e6      0x2b1 libkernel.a(prc_timer.o)
+ .debug_info    0x0000db97      0x6ed libkernel.a(target_interrupt.o)
+ .debug_info    0x0000e284      0x602 libkernel.a(prc_config.o)
+ .debug_info    0x0000e886      0x1ef libkernel.a(startup.o)
+ .debug_info    0x0000ea75      0xd17 libkernel.a(task.o)
+ .debug_info    0x0000f78c      0x619 libkernel.a(time_event.o)
+ .debug_info    0x0000fda5      0x9d4 libkernel.a(task_manage.o)
+ .debug_info    0x00010779      0xad8 libkernel.a(task_sync.o)
+ .debug_info    0x00011251      0xc94 libkernel.a(semaphore.o)
+ .debug_info    0x00011ee5      0x9bc libkernel.a(sys_manage.o)
+ .debug_info    0x000128a1      0xa25 libkernel.a(interrupt.o)
+ .debug_info    0x000132c6      0x6ba libkernel.a(exception.o)
+ .debug_info    0x00013980      0xb01 libkernel.a(wait.o)
+
+.debug_abbrev   0x00000000     0x41de
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 start.o
+ .debug_abbrev  0x00000014       0xba test_sd.o
+ .debug_abbrev  0x000000ce      0x22d target_serial.o
+ .debug_abbrev  0x000002fb      0x112 target_gpio.o
+ .debug_abbrev  0x0000040d      0x12d target_lptmr.o
+ .debug_abbrev  0x0000053a      0x1b8 target_spi.o
+ .debug_abbrev  0x000006f2      0x16c target_pwm.o
+ .debug_abbrev  0x0000085e      0x129 target_pit.o
+ .debug_abbrev  0x00000987       0xf9 target_adc.o
+ .debug_abbrev  0x00000a80       0xeb target_decoder.o
+ .debug_abbrev  0x00000b6b      0x128 light.o
+ .debug_abbrev  0x00000c93       0xf1 speaker.o
+ .debug_abbrev  0x00000d84      0x113 switch.o
+ .debug_abbrev  0x00000e97      0x100 steer.o
+ .debug_abbrev  0x00000f97      0x100 motor.o
+ .debug_abbrev  0x00001097      0x15a decoder.o
+ .debug_abbrev  0x000011f1      0x188 mmc.o
+ .debug_abbrev  0x00001379       0xac sd_rw.o
+ .debug_abbrev  0x00001425      0x107 sd_send.o
+ .debug_abbrev  0x0000152c       0xe4 sd.o
+ .debug_abbrev  0x00001610      0x1aa ff.o
+ .debug_abbrev  0x000017ba      0x13b laser.o
+ .debug_abbrev  0x000018f5      0x115 Follow.o
+ .debug_abbrev  0x00001a0a      0x119 FarSignalProcess.o
+ .debug_abbrev  0x00001b23       0xde steer_control.o
+ .debug_abbrev  0x00001c01       0xea GetFarSignalValue.o
+ .debug_abbrev  0x00001ceb       0xb5 GetNearSignalValue.o
+ .debug_abbrev  0x00001da0      0x106 GetSignalValues.o
+ .debug_abbrev  0x00001ea6       0xbf banner.o
+ .debug_abbrev  0x00001f65      0x12b syslog.o
+ .debug_abbrev  0x00002090      0x185 serial.o
+ .debug_abbrev  0x00002215      0x10f logtask.o
+ .debug_abbrev  0x00002324       0xed log_output.o
+ .debug_abbrev  0x00002411       0xe1 vasyslog.o
+ .debug_abbrev  0x000024f2       0xcc t_perror.o
+ .debug_abbrev  0x000025be       0x7c strerror.o
+ .debug_abbrev  0x0000263a      0x1a7 kernel_cfg.o
+ .debug_abbrev  0x000027e1       0x14 libkernel.a(prc_support.o)
+ .debug_abbrev  0x000027f5      0x18d libkernel.a(target_config.o)
+ .debug_abbrev  0x00002982      0x11f libkernel.a(prc_timer.o)
+ .debug_abbrev  0x00002aa1      0x10b libkernel.a(target_interrupt.o)
+ .debug_abbrev  0x00002bac      0x1d2 libkernel.a(prc_config.o)
+ .debug_abbrev  0x00002d7e       0xf6 libkernel.a(startup.o)
+ .debug_abbrev  0x00002e74      0x287 libkernel.a(task.o)
+ .debug_abbrev  0x000030fb      0x221 libkernel.a(time_event.o)
+ .debug_abbrev  0x0000331c      0x216 libkernel.a(task_manage.o)
+ .debug_abbrev  0x00003532      0x22c libkernel.a(task_sync.o)
+ .debug_abbrev  0x0000375e      0x25f libkernel.a(semaphore.o)
+ .debug_abbrev  0x000039bd      0x216 libkernel.a(sys_manage.o)
+ .debug_abbrev  0x00003bd3      0x24f libkernel.a(interrupt.o)
+ .debug_abbrev  0x00003e22      0x1c3 libkernel.a(exception.o)
+ .debug_abbrev  0x00003fe5      0x1f9 libkernel.a(wait.o)
+
+.debug_line     0x00000000     0x5ef8
+ *(.debug_line)
+ .debug_line    0x00000000       0x77 start.o
+ .debug_line    0x00000077       0xc4 test_sd.o
+ .debug_line    0x0000013b      0x179 target_serial.o
+ .debug_line    0x000002b4      0x121 target_gpio.o
+ .debug_line    0x000003d5      0x10e target_lptmr.o
+ .debug_line    0x000004e3      0x152 target_spi.o
+ .debug_line    0x00000635      0x155 target_pwm.o
+ .debug_line    0x0000078a       0xef target_pit.o
+ .debug_line    0x00000879      0x103 target_adc.o
+ .debug_line    0x0000097c      0x10d target_decoder.o
+ .debug_line    0x00000a89      0x177 light.o
+ .debug_line    0x00000c00      0x108 speaker.o
+ .debug_line    0x00000d08      0x137 switch.o
+ .debug_line    0x00000e3f      0x111 steer.o
+ .debug_line    0x00000f50      0x104 motor.o
+ .debug_line    0x00001054      0x117 decoder.o
+ .debug_line    0x0000116b      0x347 mmc.o
+ .debug_line    0x000014b2      0x145 sd_rw.o
+ .debug_line    0x000015f7       0xe6 sd_send.o
+ .debug_line    0x000016dd       0x99 sd.o
+ .debug_line    0x00001776      0xd19 ff.o
+ .debug_line    0x0000248f      0x25e laser.o
+ .debug_line    0x000026ed      0x3c4 Follow.o
+ .debug_line    0x00002ab1      0x3de FarSignalProcess.o
+ .debug_line    0x00002e8f      0x262 steer_control.o
+ .debug_line    0x000030f1      0x11c GetFarSignalValue.o
+ .debug_line    0x0000320d       0xaf GetNearSignalValue.o
+ .debug_line    0x000032bc      0x1a6 GetSignalValues.o
+ .debug_line    0x00003462       0xa8 banner.o
+ .debug_line    0x0000350a      0x104 syslog.o
+ .debug_line    0x0000360e      0x328 serial.o
+ .debug_line    0x00003936      0x11a logtask.o
+ .debug_line    0x00003a50      0x15a log_output.o
+ .debug_line    0x00003baa      0x170 vasyslog.o
+ .debug_line    0x00003d1a       0xae t_perror.o
+ .debug_line    0x00003dc8       0xab strerror.o
+ .debug_line    0x00003e73      0x1c2 kernel_cfg.o
+ .debug_line    0x00004035      0x14d libkernel.a(prc_support.o)
+ .debug_line    0x00004182      0x16a libkernel.a(target_config.o)
+ .debug_line    0x000042ec      0x112 libkernel.a(prc_timer.o)
+ .debug_line    0x000043fe       0xcb libkernel.a(target_interrupt.o)
+ .debug_line    0x000044c9      0x1e6 libkernel.a(prc_config.o)
+ .debug_line    0x000046af       0xfd libkernel.a(startup.o)
+ .debug_line    0x000047ac      0x2d9 libkernel.a(task.o)
+ .debug_line    0x00004a85      0x200 libkernel.a(time_event.o)
+ .debug_line    0x00004c85      0x343 libkernel.a(task_manage.o)
+ .debug_line    0x00004fc8      0x398 libkernel.a(task_sync.o)
+ .debug_line    0x00005360      0x312 libkernel.a(semaphore.o)
+ .debug_line    0x00005672      0x28c libkernel.a(sys_manage.o)
+ .debug_line    0x000058fe      0x24e libkernel.a(interrupt.o)
+ .debug_line    0x00005b4c      0x16c libkernel.a(exception.o)
+ .debug_line    0x00005cb8      0x240 libkernel.a(wait.o)
+
+.debug_frame    0x00000000     0x3e5c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 test_sd.o
+ .debug_frame   0x00000050      0x1ec target_serial.o
+ .debug_frame   0x0000023c       0xc8 target_gpio.o
+ .debug_frame   0x00000304       0xa0 target_lptmr.o
+ .debug_frame   0x000003a4       0xec target_spi.o
+ .debug_frame   0x00000490       0xfc target_pwm.o
+ .debug_frame   0x0000058c       0x84 target_pit.o
+ .debug_frame   0x00000610       0x84 target_adc.o
+ .debug_frame   0x00000694       0x2c target_decoder.o
+ .debug_frame   0x000006c0      0x10c light.o
+ .debug_frame   0x000007cc       0xac speaker.o
+ .debug_frame   0x00000878       0x90 switch.o
+ .debug_frame   0x00000908       0x90 steer.o
+ .debug_frame   0x00000998       0xb0 motor.o
+ .debug_frame   0x00000a48       0xa4 decoder.o
+ .debug_frame   0x00000aec      0x1f8 mmc.o
+ .debug_frame   0x00000ce4       0xb0 sd_rw.o
+ .debug_frame   0x00000d94       0x84 sd_send.o
+ .debug_frame   0x00000e18       0x90 sd.o
+ .debug_frame   0x00000ea8      0x610 ff.o
+ .debug_frame   0x000014b8      0x2a8 laser.o
+ .debug_frame   0x00001760      0x198 Follow.o
+ .debug_frame   0x000018f8      0x15c FarSignalProcess.o
+ .debug_frame   0x00001a54       0xe4 steer_control.o
+ .debug_frame   0x00001b38      0x14c GetFarSignalValue.o
+ .debug_frame   0x00001c84       0xc4 GetNearSignalValue.o
+ .debug_frame   0x00001d48       0xa8 GetSignalValues.o
+ .debug_frame   0x00001df0       0x50 banner.o
+ .debug_frame   0x00001e40       0xec syslog.o
+ .debug_frame   0x00001f2c      0x1e0 serial.o
+ .debug_frame   0x0000210c       0xb0 logtask.o
+ .debug_frame   0x000021bc       0x90 log_output.o
+ .debug_frame   0x0000224c       0x38 vasyslog.o
+ .debug_frame   0x00002284       0x50 t_perror.o
+ .debug_frame   0x000022d4       0x2c strerror.o
+ .debug_frame   0x00002300       0xb8 kernel_cfg.o
+ .debug_frame   0x000023b8       0xec libkernel.a(target_config.o)
+ .debug_frame   0x000024a4       0xe0 libkernel.a(prc_timer.o)
+ .debug_frame   0x00002584       0x48 libkernel.a(target_interrupt.o)
+ .debug_frame   0x000025cc      0x1d4 libkernel.a(prc_config.o)
+ .debug_frame   0x000027a0       0x88 libkernel.a(startup.o)
+ .debug_frame   0x00002828      0x374 libkernel.a(task.o)
+ .debug_frame   0x00002b9c      0x200 libkernel.a(time_event.o)
+ .debug_frame   0x00002d9c      0x278 libkernel.a(task_manage.o)
+ .debug_frame   0x00003014      0x294 libkernel.a(task_sync.o)
+ .debug_frame   0x000032a8      0x290 libkernel.a(semaphore.o)
+ .debug_frame   0x00003538      0x2b4 libkernel.a(sys_manage.o)
+ .debug_frame   0x000037ec      0x250 libkernel.a(interrupt.o)
+ .debug_frame   0x00003a3c       0xe8 libkernel.a(exception.o)
+ .debug_frame   0x00003b24      0x338 libkernel.a(wait.o)
+
+.debug_str      0x00000000     0x4bba
+ *(.debug_str)
+ .debug_str     0x00000000      0x14b test_sd.o
+                                0x198 (size before relaxing)
+ .debug_str     0x0000014b      0x9a5 target_serial.o
+                                0xabe (size before relaxing)
+ .debug_str     0x00000af0       0xb1 target_gpio.o
+                                0x1f9 (size before relaxing)
+ .debug_str     0x00000ba1       0xca target_lptmr.o
+                                0x8d0 (size before relaxing)
+ .debug_str     0x00000c6b      0x12b target_spi.o
+                                0x94a (size before relaxing)
+ .debug_str     0x00000d96      0x148 target_pwm.o
+                                0x350 (size before relaxing)
+ .debug_str     0x00000ede       0xa1 target_pit.o
+                                0x872 (size before relaxing)
+ .debug_str     0x00000f7f       0xc5 target_adc.o
+                                0x27e (size before relaxing)
+ .debug_str     0x00001044       0x3a target_decoder.o
+                                0x2cc (size before relaxing)
+ .debug_str     0x0000107e       0xd9 light.o
+                                0x1ed (size before relaxing)
+ .debug_str     0x00001157       0xc0 speaker.o
+                                0x1c9 (size before relaxing)
+ .debug_str     0x00001217      0x125 switch.o
+                                0x236 (size before relaxing)
+ .debug_str     0x0000133c       0xe1 steer.o
+                                0x21c (size before relaxing)
+ .debug_str     0x0000141d       0xd5 motor.o
+                                0x1fb (size before relaxing)
+ .debug_str     0x000014f2       0xed decoder.o
+                                0x238 (size before relaxing)
+ .debug_str     0x000015df      0x145 mmc.o
+                                0x26e (size before relaxing)
+ .debug_str     0x00001724       0xa4 sd_rw.o
+                                0x19b (size before relaxing)
+ .debug_str     0x000017c8       0xfa sd_send.o
+                                0x1e1 (size before relaxing)
+ .debug_str     0x000018c2      0x184 sd.o
+                                0x307 (size before relaxing)
+ .debug_str     0x00001a46      0x2ce ff.o
+                                0x5c4 (size before relaxing)
+ .debug_str     0x00001d14      0x43e laser.o
+                                0x54f (size before relaxing)
+ .debug_str     0x00002152      0x439 Follow.o
+                                0x5a6 (size before relaxing)
+ .debug_str     0x0000258b      0x3e1 FarSignalProcess.o
+                                0x59f (size before relaxing)
+ .debug_str     0x0000296c      0x215 steer_control.o
+                                0x41a (size before relaxing)
+ .debug_str     0x00002b81       0xfb GetFarSignalValue.o
+                                0x264 (size before relaxing)
+ .debug_str     0x00002c7c       0xc2 GetNearSignalValue.o
+                                0x1d0 (size before relaxing)
+ .debug_str     0x00002d3e       0x9c GetSignalValues.o
+                                0x1fd (size before relaxing)
+ .debug_str     0x00002dda       0x76 banner.o
+                                0x172 (size before relaxing)
+ .debug_str     0x00002e50      0x147 syslog.o
+                                0x292 (size before relaxing)
+ .debug_str     0x00002f97      0x290 serial.o
+                                0x3e9 (size before relaxing)
+ .debug_str     0x00003227       0x74 logtask.o
+                                0x22f (size before relaxing)
+ .debug_str     0x0000329b       0xa8 log_output.o
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00003343       0x21 vasyslog.o
+                                0x171 (size before relaxing)
+ .debug_str     0x00003364       0x3e t_perror.o
+                                0x188 (size before relaxing)
+ .debug_str     0x000033a2       0x2b strerror.o
+                                0x110 (size before relaxing)
+ .debug_str     0x000033cd      0xa60 kernel_cfg.o
+                               0x125a (size before relaxing)
+ .debug_str     0x00003e2d      0x1a7 libkernel.a(target_config.o)
+                                0x3ff (size before relaxing)
+ .debug_str     0x00003fd4       0x86 libkernel.a(prc_timer.o)
+                                0x1fd (size before relaxing)
+ .debug_str     0x0000405a      0x10d libkernel.a(target_interrupt.o)
+                                0x83a (size before relaxing)
+ .debug_str     0x00004167      0x12d libkernel.a(prc_config.o)
+                                0x35b (size before relaxing)
+ .debug_str     0x00004294       0x4d libkernel.a(startup.o)
+                                0x1b4 (size before relaxing)
+ .debug_str     0x000042e1      0x354 libkernel.a(task.o)
+                                0x71a (size before relaxing)
+ .debug_str     0x00004635      0x10a libkernel.a(time_event.o)
+                                0x391 (size before relaxing)
+ .debug_str     0x0000473f       0x9d libkernel.a(task_manage.o)
+                                0x4b2 (size before relaxing)
+ .debug_str     0x000047dc       0x6d libkernel.a(task_sync.o)
+                                0x4cd (size before relaxing)
+ .debug_str     0x00004849       0xd9 libkernel.a(semaphore.o)
+                                0x685 (size before relaxing)
+ .debug_str     0x00004922       0x79 libkernel.a(sys_manage.o)
+                                0x482 (size before relaxing)
+ .debug_str     0x0000499b       0x85 libkernel.a(interrupt.o)
+                                0x569 (size before relaxing)
+ .debug_str     0x00004a20       0x9e libkernel.a(exception.o)
+                                0x435 (size before relaxing)
+ .debug_str     0x00004abe       0xfc libkernel.a(wait.o)
+                                0x62a (size before relaxing)
+
+.debug_loc      0x00000000     0x6a03
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x70 test_sd.o
+ .debug_loc     0x00000070      0x380 target_serial.o
+ .debug_loc     0x000003f0      0x150 target_gpio.o
+ .debug_loc     0x00000540       0xf4 target_lptmr.o
+ .debug_loc     0x00000634      0x188 target_spi.o
+ .debug_loc     0x000007bc      0x1c0 target_pwm.o
+ .debug_loc     0x0000097c       0xd4 target_pit.o
+ .debug_loc     0x00000a50       0xe0 target_adc.o
+ .debug_loc     0x00000b30       0x38 target_decoder.o
+ .debug_loc     0x00000b68      0x1c0 light.o
+ .debug_loc     0x00000d28      0x118 speaker.o
+ .debug_loc     0x00000e40       0xe0 switch.o
+ .debug_loc     0x00000f20       0xe0 steer.o
+ .debug_loc     0x00001000      0x118 motor.o
+ .debug_loc     0x00001118      0x10c decoder.o
+ .debug_loc     0x00001224      0x350 mmc.o
+ .debug_loc     0x00001574      0x118 sd_rw.o
+ .debug_loc     0x0000168c       0xe0 sd_send.o
+ .debug_loc     0x0000176c       0xe0 sd.o
+ .debug_loc     0x0000184c      0xace ff.o
+ .debug_loc     0x0000231a      0x480 laser.o
+ .debug_loc     0x0000279a      0x2d8 Follow.o
+ .debug_loc     0x00002a72      0x27c FarSignalProcess.o
+ .debug_loc     0x00002cee      0x188 steer_control.o
+ .debug_loc     0x00002e76      0x224 GetFarSignalValue.o
+ .debug_loc     0x0000309a      0x12c GetNearSignalValue.o
+ .debug_loc     0x000031c6      0x118 GetSignalValues.o
+ .debug_loc     0x000032de       0x70 banner.o
+ .debug_loc     0x0000334e      0x188 syslog.o
+ .debug_loc     0x000034d6      0x348 serial.o
+ .debug_loc     0x0000381e      0x11a logtask.o
+ .debug_loc     0x00003938       0xe1 log_output.o
+ .debug_loc     0x00003a19       0x46 vasyslog.o
+ .debug_loc     0x00003a5f       0x70 t_perror.o
+ .debug_loc     0x00003acf       0x38 strerror.o
+ .debug_loc     0x00003b07      0x120 kernel_cfg.o
+ .debug_loc     0x00003c27      0x184 libkernel.a(target_config.o)
+ .debug_loc     0x00003dab      0x188 libkernel.a(prc_timer.o)
+ .debug_loc     0x00003f33       0x70 libkernel.a(target_interrupt.o)
+ .debug_loc     0x00003fa3      0x324 libkernel.a(prc_config.o)
+ .debug_loc     0x000042c7       0xc8 libkernel.a(startup.o)
+ .debug_loc     0x0000438f      0x61c libkernel.a(task.o)
+ .debug_loc     0x000049ab      0x37c libkernel.a(time_event.o)
+ .debug_loc     0x00004d27      0x43c libkernel.a(task_manage.o)
+ .debug_loc     0x00005163      0x468 libkernel.a(task_sync.o)
+ .debug_loc     0x000055cb      0x468 libkernel.a(semaphore.o)
+ .debug_loc     0x00005a33      0x4ac libkernel.a(sys_manage.o)
+ .debug_loc     0x00005edf      0x404 libkernel.a(interrupt.o)
+ .debug_loc     0x000062e3      0x188 libkernel.a(exception.o)
+ .debug_loc     0x0000646b      0x598 libkernel.a(wait.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(asp elf32-littlearm)
+
+.debug_pubtypes
+                0x00000000     0x2d85
+ .debug_pubtypes
+                0x00000000       0x45 test_sd.o
+ .debug_pubtypes
+                0x00000045      0x13a target_serial.o
+ .debug_pubtypes
+                0x0000017f       0x9e target_gpio.o
+ .debug_pubtypes
+                0x0000021d       0xce target_lptmr.o
+ .debug_pubtypes
+                0x000002eb       0xba target_spi.o
+ .debug_pubtypes
+                0x000003a5       0xb5 target_pwm.o
+ .debug_pubtypes
+                0x0000045a       0x7e target_pit.o
+ .debug_pubtypes
+                0x000004d8       0x7a target_adc.o
+ .debug_pubtypes
+                0x00000552       0xaa target_decoder.o
+ .debug_pubtypes
+                0x000005fc       0x7a light.o
+ .debug_pubtypes
+                0x00000676       0x71 speaker.o
+ .debug_pubtypes
+                0x000006e7       0x95 switch.o
+ .debug_pubtypes
+                0x0000077c       0x9f steer.o
+ .debug_pubtypes
+                0x0000081b       0x86 motor.o
+ .debug_pubtypes
+                0x000008a1       0xaf decoder.o
+ .debug_pubtypes
+                0x00000950       0x67 mmc.o
+ .debug_pubtypes
+                0x000009b7       0x27 sd_rw.o
+ .debug_pubtypes
+                0x000009de       0x22 sd_send.o
+ .debug_pubtypes
+                0x00000a00       0x40 sd.o
+ .debug_pubtypes
+                0x00000a40       0xb6 ff.o
+ .debug_pubtypes
+                0x00000af6      0x13f laser.o
+ .debug_pubtypes
+                0x00000c35       0x5a Follow.o
+ .debug_pubtypes
+                0x00000c8f       0x4f FarSignalProcess.o
+ .debug_pubtypes
+                0x00000cde       0x4e steer_control.o
+ .debug_pubtypes
+                0x00000d2c       0x45 GetFarSignalValue.o
+ .debug_pubtypes
+                0x00000d71       0x38 GetNearSignalValue.o
+ .debug_pubtypes
+                0x00000da9       0x4c GetSignalValues.o
+ .debug_pubtypes
+                0x00000df5       0x4c banner.o
+ .debug_pubtypes
+                0x00000e41       0xa5 syslog.o
+ .debug_pubtypes
+                0x00000ee6       0xef serial.o
+ .debug_pubtypes
+                0x00000fd5       0xbc logtask.o
+ .debug_pubtypes
+                0x00001091       0x70 log_output.o
+ .debug_pubtypes
+                0x00001101       0x84 vasyslog.o
+ .debug_pubtypes
+                0x00001185       0x5d t_perror.o
+ .debug_pubtypes
+                0x000011e2       0x2e strerror.o
+ .debug_pubtypes
+                0x00001210      0x61d kernel_cfg.o
+ .debug_pubtypes
+                0x0000182d      0x124 libkernel.a(target_config.o)
+ .debug_pubtypes
+                0x00001951       0x6d libkernel.a(prc_timer.o)
+ .debug_pubtypes
+                0x000019be       0x6f libkernel.a(target_interrupt.o)
+ .debug_pubtypes
+                0x00001a2d       0xd5 libkernel.a(prc_config.o)
+ .debug_pubtypes
+                0x00001b02       0x5f libkernel.a(startup.o)
+ .debug_pubtypes
+                0x00001b61      0x275 libkernel.a(task.o)
+ .debug_pubtypes
+                0x00001dd6       0xcf libkernel.a(time_event.o)
+ .debug_pubtypes
+                0x00001ea5      0x1c5 libkernel.a(task_manage.o)
+ .debug_pubtypes
+                0x0000206a      0x1e6 libkernel.a(task_sync.o)
+ .debug_pubtypes
+                0x00002250      0x2f8 libkernel.a(semaphore.o)
+ .debug_pubtypes
+                0x00002548      0x1b9 libkernel.a(sys_manage.o)
+ .debug_pubtypes
+                0x00002701      0x234 libkernel.a(interrupt.o)
+ .debug_pubtypes
+                0x00002935      0x1ef libkernel.a(exception.o)
+ .debug_pubtypes
+                0x00002b24      0x261 libkernel.a(wait.o)

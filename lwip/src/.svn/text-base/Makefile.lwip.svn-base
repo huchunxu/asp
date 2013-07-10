@@ -1,0 +1,37 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.eleccar
+#
+#		Description:
+#
+#       Version:  0.1
+#       Created:  2012-09-09 16:38:35
+#		Author:  Hu Chunxu , hcx196@gmail.com
+#		Company:  HUST-Renesas Lab
+#		Revision:  
+# =====================================================================================
+#		@0.1   Hu Chunxu 2012-09-09	create orignal file
+# =====================================================================================
+
+LWIP_ROOT = $(SRCDIR)/lwip/src
+
+LWIP_DIR = $(LWIP_ROOT)
+
+LWIP_CFLAGS :=
+
+LWIP_COBJS := $(LWIP_COBJS) $(LWIP_DIR)/core/dhcp.o $(LWIP_DIR)/core/init.o $(LWIP_DIR)/core/mem.o $(LWIP_DIR)/core/def.o \
+                        $(LWIP_DIR)/core/memp.o $(LWIP_DIR)/core/netif.o $(LWIP_DIR)/core/pbuf.o \
+                        $(LWIP_DIR)/core/raw.o $(LWIP_DIR)/core/stats.o $(LWIP_DIR)/core/sys.o $(LWIP_DIR)/core/timers.o \
+                        $(LWIP_DIR)/core/tcp.o $(LWIP_DIR)/core/tcp_in.o $(LWIP_DIR)/core/tcp_out.o \
+                        $(LWIP_DIR)/core/udp.o $(LWIP_DIR)/core/ipv4/autoip.o $(LWIP_DIR)/core/ipv4/icmp.o \
+                        $(LWIP_DIR)/core/ipv4/igmp.o $(LWIP_DIR)/core/ipv4/ip.o $(LWIP_DIR)/core/ipv4/ip_addr.o \
+                        $(LWIP_DIR)/core/ipv4/ip_frag.o $(LWIP_DIR)/core/ipv4/inet_chksum.o $(LWIP_DIR)/netif/etharp.o \
+                        $(LWIP_DIR)/api/tcpip.o $(LWIP_DIR)/api/err.o $(LWIP_DIR)/api/netifapi.o $(LWIP_DIR)/api/api_lib.o \
+                        $(LWIP_DIR)/api/api_msg.o $(LWIP_DIR)/api/sockets.o $(LWIP_DIR)/sys_arch.o
+
+SYSSVC_DIR := $(SYSSVC_DIR) $(LWIP_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(LWIP_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(LWIP_CFLAGS)
+
+INCLUDES := $(INCLUDES)	-I$(LWIP_ROOT) -I$(LWIP_ROOT)/include -I$(LWIP_ROOT)/include/ipv4

@@ -1,0 +1,28 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.lasercar
+#
+#		Description:
+#
+#       Version:  0.1
+#       Created:  2012-09-09 16:38:35
+#		Author:  Hu Chunxu , hcx196@gmail.com
+#		Company:  HUST-Renesas Lab
+#		Revision:  
+# =====================================================================================
+#		@0.1   Hu Chunxu 2012-09-09	create orignal file
+# =====================================================================================
+
+LASERCAR_ROOT = $(SRCDIR)/peripheral/laser_car
+
+LASERCAR_DIR = $(LASERCAR_ROOT)
+
+LASERCAR_COBJS := $(LASERCAR_COBJS) laser.o Follow.o FarSignalProcess.o steer_control.o\
+                 GetFarSignalValue.o GetNearSignalValue.o GetSignalValues.o
+
+SYSSVC_DIR := $(SYSSVC_DIR) $(LASERCAR_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(LASERCAR_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(LASERCAR_CFLAGS)
+
+INCLUDES := $(INCLUDES)	-I$(LASERCAR_ROOT)

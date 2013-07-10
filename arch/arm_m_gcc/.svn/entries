@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/arch/arm_m_gcc"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="MANIFEST"
+   checksum="73f154f96e01fb6bf40692faa8f8b5aa"
+   last-author="hcx"
+   text-time="2008-10-02T00:20:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:21.000000Z"/>
+<entry
+   name="Makefile.prc"
+   checksum="db9f13ce92e64982469e00f609cba6e5"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:30.000000Z"/>
+<entry
+   name="arm_m.h"
+   checksum="74dfb4e75f782d3ffa64cc9e40a02b33"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:50.000000Z"/>
+<entry
+   name="makeoffset.c"
+   checksum="57cbc3c7ad6c7e7cff07cd1469e0106e"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:28.000000Z"/>
+<entry
+   name="prc.tf"
+   checksum="040772355317928a974172a587bcafc1"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:18.000000Z"/>
+<entry
+   name="prc_cfg1_out.h"
+   checksum="b0e37c847ad71cb21175c080d363fd00"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:44.000000Z"/>
+<entry
+   name="prc_check.tf"
+   checksum="f8afaf9f572467ab020fdcf74500c1aa"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:03.000000Z"/>
+<entry
+   name="prc_config.c"
+   checksum="adb7126b46d44390697f4f5c0a704cdc"
+   last-author="hcx"
+   text-time="2012-09-17T04:53:12.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:42.000000Z"/>
+<entry
+   name="prc_config.h"
+   checksum="5500718ed64741dc1322c82cc4ba565c"
+   last-author="hcx"
+   text-time="2012-09-06T01:59:35.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:11.000000Z"/>
+<entry
+   name="prc_def.csv"
+   checksum="abdde6b1782ff7f7af799eddad6855ca"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:51.000000Z"/>
+<entry
+   name="prc_design.txt"
+   checksum="22c803982f30795be6e3f368bdfadef3"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:58.000000Z"/>
+<entry
+   name="prc_insn.h"
+   checksum="312d10803009e4bd522e69bc4bbddce4"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:55.000000Z"/>
+<entry
+   name="prc_kernel.h"
+   checksum="9188fd6f3b787f000224a07d963d4233"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:29.000000Z"/>
+<entry
+   name="prc_rename.def"
+   checksum="bf0e9d210ef2e3a6b1fa9cdc38f504a7"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:13.000000Z"/>
+<entry
+   name="prc_rename.h"
+   checksum="67586019a7b3f3c40006183f9b363e66"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:31.000000Z"/>
+<entry
+   name="prc_sil.h"
+   checksum="b752e17f6fb09c6355c3b2064df98756"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:40.000000Z"/>
+<entry
+   name="prc_stddef.h"
+   checksum="e6c6f717d5359bfd9bd4f7cc254866a6"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:11.000000Z"/>
+<entry
+   name="prc_support.S"
+   checksum="b0a63b71e8e4a92cd2f7490ec7411b85"
+   last-author="hcx"
+   text-time="2012-08-30T03:13:24.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:19.000000Z"/>
+<entry
+   name="prc_test.h"
+   checksum="a1148cf4d9dea3d6e421729066d001d7"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:26.000000Z"/>
+<entry
+   name="prc_timer.c"
+   checksum="cde5c84d823df3e9d818309e1c138519"
+   last-author="hcx"
+   text-time="2012-09-08T07:55:47.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:21.000000Z"/>
+<entry
+   name="prc_timer.cfg"
+   checksum="11827c96f25bbd8f45b38a2a46f56bd7"
+   last-author="hcx"
+   text-time="2012-08-20T07:54:58.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:37.000000Z"/>
+<entry
+   name="prc_timer.h"
+   checksum="a58e8b0042eab50652b5463351a1396b"
+   last-author="hcx"
+   text-time="2012-08-30T02:39:38.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:46.000000Z"/>
+<entry
+   name="prc_unrename.h"
+   checksum="7bd3136fef28c9f2730281eab1f308ca"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:15.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:54.000000Z"/>
+<entry
+   name="prc_user.txt"
+   checksum="9156fc75ccd6319ec69dbb4c6ea120d9"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:41.000000Z"/>
+<entry
+   name="start.S"
+   checksum="acaf017845cfd54061d182b1c86e3edd"
+   last-author="hcx"
+   text-time="2012-09-17T11:18:46.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/obj/k60/laser_car"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile"
+   checksum="04ced639936d58bb1748e939c104b92b"
+   last-author="hcx"
+   text-time="2012-09-22T02:11:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:21.000000Z"/>
+<entry
+   name="laser_car.c"
+   checksum="39881a193c5306b3c801fd8cd3a5d606"
+   last-author="hcx"
+   text-time="2012-09-29T06:15:53.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:12.000000Z"/>
+<entry
+   name="laser_car.cfg"
+   checksum="6c022f8ea00a7d01243c0fad9af4e53a"
+   last-author="hcx"
+   text-time="2012-09-19T09:18:21.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:44.000000Z"/>
+<entry
+   name="laser_car.h"
+   checksum="c70ecb2b6699c13f2b561bf47e69bb22"
+   last-author="hcx"
+   text-time="2012-09-08T08:22:28.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:28.000000Z"/>
+</wc-entries>

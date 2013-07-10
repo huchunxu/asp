@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/obj/k60/sample"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile"
+   checksum="bc10a1d9b240b5ea20be56a3d890f6b4"
+   last-author="hcx"
+   text-time="2012-09-07T13:41:52.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:41.000000Z"/>
+<entry
+   name="sample1.c"
+   checksum="2b89572974aa9959e84792a8f648e3a1"
+   last-author="hcx"
+   text-time="2012-09-01T03:14:17.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:40.000000Z"/>
+<entry
+   name="sample1.cfg"
+   checksum="3b8efeeae9c46fe4548a451d4a094a66"
+   last-author="hcx"
+   text-time="2012-09-01T03:16:05.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:26.000000Z"/>
+<entry
+   name="sample1.h"
+   checksum="ab1b2a538ed1edbf8e9febccf215b1cd"
+   last-author="hcx"
+   text-time="2012-09-01T07:34:03.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:36.000000Z"/>
+</wc-entries>

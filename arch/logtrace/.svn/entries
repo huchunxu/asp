@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/arch/logtrace"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="MANIFEST"
+   checksum="35402aeae3c4d18545e2c913b769457a"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:12.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:16.000000Z"/>
+<entry
+   name="trace_config.c"
+   checksum="3f764b2f302b05e34c45691e9cfc5e2f"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:12.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:55:53.000000Z"/>
+<entry
+   name="trace_config.h"
+   checksum="8bd9aaed3d34134d0fd1e4484a6318d0"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:12.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:31.000000Z"/>
+<entry
+   name="trace_dump.c"
+   checksum="46b94948ba5293c02a01dc8e85502e7e"
+   last-author="hcx"
+   text-time="2008-09-28T07:30:12.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:49.000000Z"/>
+</wc-entries>

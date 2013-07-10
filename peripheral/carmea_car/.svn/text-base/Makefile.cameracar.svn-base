@@ -1,0 +1,27 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.camercar
+#
+#		Description:
+#
+#       Version:  0.1
+#       Created:  2012-09-09 16:38:35
+#		Author:  Hu Chunxu , hcx196@gmail.com
+#		Company:  HUST-Renesas Lab
+#		Revision:  
+# =====================================================================================
+#		@0.1   Hu Chunxu 2012-09-09	create orignal file
+# =====================================================================================
+
+CAMERACAR_ROOT = $(SRCDIR)/peripheral/camera_car
+
+CAMERACAR_DIR = $(CAMERACAR_ROOT)
+
+CAMERACAR_COBJS := $(CAMERACAR_COBJS) 
+
+SYSSVC_DIR := $(SYSSVC_DIR) $(CAMERACAR_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(CAMERACAR_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(CAMERACAR_CFLAGS)
+
+INCLUDES := $(INCLUDES)	-I$(CAMERACAR_ROOT)

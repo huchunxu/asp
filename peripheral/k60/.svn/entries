@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/peripheral/k60"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile.k60"
+   checksum="50b65deb41bfc1038ef3a97ca35968a7"
+   last-author="hcx"
+   text-time="2012-11-07T08:43:14.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_adc.c"
+   checksum="51291ee204e4906e6dfecfe418b78d02"
+   last-author="hcx"
+   text-time="2012-09-03T08:34:37.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_adc.h"
+   checksum="e7dd1b8da8e2141a9d6c8be83b0045d1"
+   last-author="hcx"
+   text-time="2012-09-03T10:48:13.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_decoder.c"
+   checksum="7478b057bff11bb6ae74ee4dfb5051dc"
+   last-author="hcx"
+   text-time="2012-09-04T02:32:29.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_decoder.h"
+   checksum="d78b8b1d7b47092b2e5251a29ec8e454"
+   last-author="hcx"
+   text-time="2012-09-04T02:32:16.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_gpio.c"
+   checksum="3e49b445f153123964f79df63d3db10a"
+   last-author="hcx"
+   text-time="2012-09-03T10:50:57.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_gpio.h"
+   checksum="8e21e537f1fc1152daa9248e16b7adcd"
+   last-author="hcx"
+   text-time="2012-09-03T11:05:36.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_lptmr.c"
+   checksum="c9befa1547a945d9402923ec526297f5"
+   last-author="hcx"
+   text-time="2012-09-07T13:17:21.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_lptmr.h"
+   checksum="576494e43413eb3f982b58526c9a2fba"
+   last-author="hcx"
+   text-time="2012-09-07T13:17:13.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_pit.c"
+   checksum="e9b105c855d237d969a6b870d6d82cc6"
+   last-author="hcx"
+   text-time="2012-09-03T11:07:20.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_pit.h"
+   checksum="36e72ffa83e8e57e0dd581cd54fab5b8"
+   last-author="hcx"
+   text-time="2012-09-03T10:55:16.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_pwm.c"
+   checksum="27a1a5a8fc48d6f1787804c3d64e96be"
+   last-author="hcx"
+   text-time="2012-09-07T02:09:08.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_pwm.h"
+   checksum="4b1bb1d411d969cd1f1746b010937aef"
+   last-author="hcx"
+   text-time="2012-09-07T02:08:50.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_spi.c"
+   checksum="bd07eff026d97f07358f2a5fea4ba7c0"
+   last-author="hcx"
+   text-time="2012-09-04T02:12:43.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="target_spi.h"
+   checksum="cecca4fa23ae977333ba67bbb3907699"
+   last-author="hcx"
+   text-time="2012-09-04T02:15:09.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+</wc-entries>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/library"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="histogram.c"
+   checksum="3891c272e0a9585035b46be163ce15d8"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:29.000000Z"/>
+<entry
+   name="log_output.c"
+   checksum="c6480311839e09f44a6369dad70521c7"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:48.000000Z"/>
+<entry
+   name="strerror.c"
+   checksum="98652a334a9ee20a34a1060a35b2da38"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:06.000000Z"/>
+<entry
+   name="t_perror.c"
+   checksum="f1d1a45dd5f56f4cd6b8e468fb3da4dd"
+   last-author="hcx"
+   text-time="2012-04-13T04:35:40.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:18.000000Z"/>
+<entry
+   name="test_lib.c"
+   checksum="89fd658fb6d4c8ccbfef4ee830038fab"
+   last-author="hcx"
+   text-time="2012-04-14T12:10:48.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:35.000000Z"/>
+</wc-entries>

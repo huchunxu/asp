@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="929"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/asp/obj/k60/test_interrupt"
+   committed-rev="929"
+   kind="dir"
+   committed-date="2012-11-07T08:57:57.893000Z"/>
+<entry
+   name="Makefile"
+   checksum="7e8eb8f8a860007b1b99d4f18fb84235"
+   last-author="hcx"
+   text-time="2012-09-17T04:14:59.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:39.000000Z"/>
+<entry
+   name="test_interrupt.c"
+   checksum="f858704e7d3982e8fdce9e14baca38e3"
+   last-author="hcx"
+   text-time="2012-09-17T04:44:07.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:21.000000Z"/>
+<entry
+   name="test_interrupt.cfg"
+   checksum="e58446e17bab776a37168c573a1f8572"
+   last-author="hcx"
+   text-time="2012-09-17T04:47:09.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:01.000000Z"/>
+<entry
+   name="test_interrupt.h"
+   checksum="6a48772e6b699849bbcf68cb12fd1f46"
+   last-author="hcx"
+   text-time="2012-08-29T02:46:46.000000Z"
+   committed-rev="929"
+   kind="file"
+   committed-date="2012-11-07T08:57:57.893000Z"
+   prop-time="2012-11-07T08:56:03.000000Z"/>
+</wc-entries>

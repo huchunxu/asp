@@ -1,0 +1,28 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.fatfs
+#
+#		Description:
+#
+#       Version:  0.1
+#       Created:  2012-9-4 10:03:35
+#		Author:  Hu Chunxu , hcx196@gmail.com
+#		Company:  HUST-Renesas Lab
+#		Revision:  
+# =====================================================================================
+#		@0.1 	Hu Chunxu	2012-9-4	create orignal file
+# =====================================================================================
+
+
+FATFS_ROOT = $(SRCDIR)/fatfs
+
+FATFS_DIR = $(FATFS_ROOT) $(FATFS_ROOT)/option  $(FATFS_ROOT)/target/k60
+
+FATFS_COBJS := $(FATFS_COBJS) ff.o
+
+SYSSVC_DIR := $(SYSSVC_DIR) $(FATFS_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(FATFS_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(FATFS_CFLAGS)
+
+INCLUDES := $(INCLUDES)	-I$(FATFS_ROOT) -I$(FATFS_ROOT)/option -I$(FATFS_ROOT)/target/k60

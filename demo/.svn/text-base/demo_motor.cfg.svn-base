@@ -1,0 +1,21 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  demo_motor.cfg
+ *
+ *    Description:  demo motor configuration file
+ *
+ *        Version:  0.1
+ *        Created:  2012/9/8 11:21:49
+ *
+ *         Author:  Hu Chunxu , hcx196@gmail.com
+ *        Company:  HUST-Renesas Lab
+ *       Revision:  
+ * =====================================================================================
+ *	@0.1 	Hu Chunxu	2012/9/8	create orignal file
+ * =====================================================================================
+ */
+
+#include "demo_motor.h"
+
+ATT_INI({TA_NULL, 0, demo_motor_initialize});
